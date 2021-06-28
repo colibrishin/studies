@@ -1,0 +1,2576 @@
+# r2 rdb project file
+# eval
+"e anal.a2f = false"
+"e anal.arch = x86"
+"e anal.armthumb = false"
+"e anal.autoname = false"
+"e anal.bb.maxsize = 512K"
+"e anal.brokenrefs = false"
+"e anal.calls = false"
+"e anal.cpp.abi = msvc"
+"e anal.cpu = x86"
+"e anal.datarefs = false"
+"e anal.delay = true"
+"e anal.depth = 64"
+"e anal.endsize = true"
+"e anal.esil = false"
+"e anal.fcnprefix = fcn"
+"e anal.from = 0xffffffffffffffff"
+"e anal.gp = 0"
+"e anal.gpfixed = true"
+"e anal.graph_depth = 256"
+"e anal.hasnext = false"
+"e anal.hpskip = false"
+"e anal.ignbithints = false"
+"e anal.in = io.maps.x"
+"e anal.jmp.above = true"
+"e anal.jmp.after = true"
+"e anal.jmp.cref = false"
+"e anal.jmp.indir = false"
+"e anal.jmp.mid = true"
+"e anal.jmp.ref = true"
+"e anal.jmp.retpoline = true"
+"e anal.jmp.tailcall = 0"
+"e anal.jmp.tbl = true"
+"e anal.limits = false"
+"e anal.loads = false"
+"e anal.nonull = 0"
+"e anal.nopskip = true"
+"e anal.norevisit = false"
+"e anal.prelude = "
+"e anal.ptrdepth = 3"
+"e anal.pushret = false"
+"e anal.recont = false"
+"e anal.refstr = false"
+"e anal.rnr = false"
+"e anal.roregs = gp,zero"
+"e anal.sleep = 0"
+"e anal.strings = false"
+"e anal.timeout = 0"
+"e anal.to = 0xffffffffffffffff"
+"e anal.trycatch = false"
+"e anal.types.constraint = true"
+"e anal.types.spec = gcc"
+"e anal.types.verbose = false"
+"e anal.vars = true"
+"e anal.verbose = false"
+"e anal.vinfun = true"
+"e anal.vinfunrange = false"
+"e asm.anal = false"
+"e asm.arch = x86"
+"e asm.assembler = "
+"e asm.bb.line = false"
+"e asm.bb.middle = true"
+"e asm.bits = 32"
+"e asm.bytes = false"
+"e asm.bytespace = false"
+"e asm.calls = true"
+"e asm.capitalize = false"
+"e asm.cmt.col = 35"
+"e asm.cmt.esil = false"
+"e asm.cmt.flgrefs = true"
+"e asm.cmt.fold = false"
+"e asm.cmt.off = nodup"
+"e asm.cmt.patch = false"
+"e asm.cmt.refs = false"
+"e asm.cmt.right = true"
+"e asm.comments = true"
+"e asm.cpu = x86"
+"e asm.cycles = false"
+"e asm.cyclespace = false"
+"e asm.decode = false"
+"e asm.decoff = false"
+"e asm.demangle = true"
+"e asm.describe = false"
+"e asm.dwarf = true"
+"e asm.dwarf.abspath = false"
+"e asm.dwarf.file = true"
+"e asm.emu = false"
+"e asm.esil = false"
+"e asm.family = false"
+"e asm.fcnsig = true"
+"e asm.features = "
+"e asm.filter = true"
+"e asm.flags = true"
+"e asm.flags.inbytes = false"
+"e asm.flags.inline = false"
+"e asm.flags.limit = 0"
+"e asm.flags.maxname = 0"
+"e asm.flags.middle = 2"
+"e asm.flags.offset = false"
+"e asm.flags.real = 1"
+"e asm.functions = true"
+"e asm.highlight = "
+"e asm.hint.call = true"
+"e asm.hint.cdiv = false"
+"e asm.hint.emu = false"
+"e asm.hint.jmp = false"
+"e asm.hint.lea = false"
+"e asm.hint.pos = 1"
+"e asm.hints = true"
+"e asm.imm.arm = 0"
+"e asm.imm.str = true"
+"e asm.imm.trim = false"
+"e asm.indent = false"
+"e asm.indentspace = 2"
+"e asm.instr = true"
+"e asm.invhex = false"
+"e asm.jmpsub = true"
+"e asm.lbytes = true"
+"e asm.lines = true"
+"e asm.lines.bb = true"
+"e asm.lines.call = false"
+"e asm.lines.fcn = true"
+"e asm.lines.maxref = 0"
+"e asm.lines.out = true"
+"e asm.lines.ret = false"
+"e asm.lines.right = false"
+"e asm.lines.wide = false"
+"e asm.lines.width = 7"
+"e asm.marks = false"
+"e asm.meta = true"
+"e asm.midcursor = false"
+"e asm.middle = false"
+"e asm.minicols = false"
+"e asm.nbytes = 10"
+"e asm.nodup = false"
+"e asm.noisy = true"
+"e asm.offset = true"
+"e asm.optype = false"
+"e asm.os = windows"
+"e asm.parser = x86.pseudo"
+"e asm.payloads = false"
+"e asm.pcalign = 0"
+"e asm.pseudo = 0"
+"e asm.refptr = false"
+"e asm.regsub = false"
+"e asm.reloff = false"
+"e asm.reloff.flags = false"
+"e asm.relsub = true"
+"e asm.section = false"
+"e asm.section.col = 20"
+"e asm.section.name = true"
+"e asm.section.perm = false"
+"e asm.section.sub = false"
+"e asm.seggrn = 4"
+"e asm.segoff = false"
+"e asm.size = false"
+"e asm.slow = true"
+"e asm.stackptr = false"
+"e asm.strip = "
+"e asm.symbol = false"
+"e asm.symbol.col = 40"
+"e asm.syntax = intel"
+"e asm.tabs = 8"
+"e asm.tabs.off = 5"
+"e asm.tabs.once = true"
+"e asm.tailsub = false"
+"e asm.trace = false"
+"e asm.tracespace = false"
+"e asm.types = 1"
+"e asm.ucase = false"
+"e asm.usercomments = false"
+"e asm.var = true"
+"e asm.var.access = false"
+"e asm.var.sub = true"
+"e asm.var.submin = 256"
+"e asm.var.subonly = true"
+"e asm.var.summary = 0"
+"e asm.xrefs = false"
+"e asm.xrefs.code = true"
+"e asm.xrefs.fold = 5"
+"e asm.xrefs.max = 20"
+"e bin.at = false"
+"e bin.b64str = false"
+"e bin.baddr = 0x00400000"
+"e bin.classes = true"
+"e bin.dbginfo = true"
+"e bin.debase64 = false"
+"e bin.demangle = true"
+"e bin.demangle.libs = false"
+"e bin.demanglecmd = false"
+"e bin.filter = true"
+"e bin.force = "
+"e bin.hashlimit = 10M"
+"e bin.laddr = 0"
+"e bin.lang = c++"
+"e bin.libs = false"
+"e bin.maxstr = 0"
+"e bin.maxstrbuf = 0x00a00000"
+"e bin.minstr = 0"
+"e bin.prefix = "
+"e bin.rawstr = false"
+"e bin.relocs = true"
+"e bin.str.enc = guess"
+"e bin.str.filter = "
+"e bin.str.purge = "
+"e bin.strings = true"
+"e bin.useldr = true"
+"e bin.usextr = true"
+"e bin.verbose = false"
+"e cfg.bigendian = false"
+"e cfg.corelog = false"
+"e cfg.cpuaffinity = 0"
+"e cfg.debug = false"
+"e cfg.editor = notepad"
+"e cfg.fortunes = true"
+"e cfg.fortunes.clippy = false"
+"e cfg.fortunes.tts = false"
+"e cfg.fortunes.type = tips,fun"
+"e cfg.newshell = false"
+"e cfg.newtab = false"
+"e cfg.plugins = true"
+"e cfg.prefixdump = dump"
+"e cfg.r2wars = false"
+"e cfg.sandbox = false"
+"e cfg.user = pid8640"
+"e cfg.wseek = false"
+"e cmd.bp = "
+"e cmd.cprompt = "
+"e cmd.depth = 10"
+"e cmd.esil.intr = "
+"e cmd.esil.ioer = "
+"e cmd.esil.mdev = "
+"e cmd.esil.step = "
+"e cmd.esil.stepout = "
+"e cmd.esil.todo = "
+"e cmd.esil.trap = "
+"e cmd.fcn.delete = "
+"e cmd.fcn.new = "
+"e cmd.fcn.rename = "
+"e cmd.gprompt = .dr*"
+"e cmd.hexcursor = "
+"e cmd.hit = "
+"e cmd.hitinfo = 1"
+"e cmd.load = "
+"e cmd.log = "
+"e cmd.onsyscall = "
+"e cmd.open = "
+"e cmd.pdc = "
+"e cmd.prompt = .dr*"
+"e cmd.repeat = false"
+"e cmd.stack = "
+"e cmd.times = "
+"e cmd.visual = "
+"e cmd.vprompt = .dr*"
+"e cmd.xterm = xterm -bg black -fg gray -e"
+"e dbg.aftersyscall = true"
+"e dbg.args = "
+"e dbg.backend = native"
+"e dbg.bep = loader"
+"e dbg.bpinmaps = true"
+"e dbg.bpsize = 1"
+"e dbg.bpsysign = false"
+"e dbg.btalgo = fuzzy"
+"e dbg.btdepth = 128"
+"e dbg.clone = false"
+"e dbg.consbreak = false"
+"e dbg.exe.path = "
+"e dbg.execs = false"
+"e dbg.exitkills = true"
+"e dbg.follow = 32"
+"e dbg.follow.child = false"
+"e dbg.forks = false"
+"e dbg.funcarg = false"
+"e dbg.gdb.page_size = 0x00001000"
+"e dbg.gdb.retries = 10"
+"e dbg.glibc.fc_offset = 640"
+"e dbg.glibc.ma_offset = 0"
+"e dbg.glibc.tcache = false"
+"e dbg.hwbp = 0"
+"e dbg.libc.dbglib = "
+"e dbg.libs = "
+"e dbg.malloc = jemalloc"
+"e dbg.profile = "
+"e dbg.rebase = true"
+"e dbg.skipover = false"
+"e dbg.slow = false"
+"e dbg.status = false"
+"e dbg.swstep = 0"
+"e dbg.threads = false"
+"e dbg.trace = 0"
+"e dbg.trace.inrange = false"
+"e dbg.trace.libs = true"
+"e dbg.trace.tag = 0"
+"e dbg.unlibs = "
+"e dbg.verbose = true"
+"e diff.bare = false"
+"e diff.from = 0"
+"e diff.levenstein = false"
+"e diff.sort = addr"
+"e diff.to = 0"
+"e dir.dbgsnap = ."
+"e dir.depth = 10"
+"e dir.home = C:\Users\colib"
+"e dir.libs = "
+"e dir.magic = D:\_data\Program\cutter\radare2\share\magic"
+"e dir.plugins = D:\_data\Program\cutter\radare2\lib\plugins"
+"e dir.prefix = D:\_data\Program\cutter"
+"e dir.projects = D:\_data\document\Work\crackme\5d63011533c5d46f00e2c305 - mexican"
+"e dir.source = "
+"e dir.tmp = C:\Users\colib\AppData\Local\Temp"
+"e dir.types = /usr/include"
+"e dir.zigns = ~\.local\share\radare2\zigns"
+"e emu.lazy = false"
+"e emu.pre = false"
+"e emu.skip = ds"
+"e emu.ssa = false"
+"e emu.stack = false"
+"e emu.str = false"
+"e emu.str.flag = true"
+"e emu.str.inv = true"
+"e emu.str.lea = true"
+"e emu.str.off = false"
+"e emu.write = false"
+"e esil.addr.size = 64"
+"e esil.breakoninvalid = true"
+"e esil.exectrap = false"
+"e esil.fillstack = "
+"e esil.gotolimit = 0x00001000"
+"e esil.iotrap = true"
+"e esil.mdev.range = "
+"e esil.nonull = false"
+"e esil.prestep = true"
+"e esil.romem = false"
+"e esil.stack.addr = 0x00100000"
+"e esil.stack.depth = 32"
+"e esil.stack.pattern = 0"
+"e esil.stack.size = 0x000f0000"
+"e esil.stats = false"
+"e esil.timeout = 0"
+"e esil.verbose = 0"
+"e file.desc = "
+"e file.info = true"
+"e file.lastpath = D:\_data\document\Work\crackme\5d63011533c5d46f00e2c305 - mexican\Untitled1.exe"
+"e file.loadalign = 0x00000400"
+"e file.location = "
+"e file.md5 = "
+"e file.offset = "
+"e file.openmany = 1"
+"e file.path = D:\_data\document\Work\crackme\5d63011533c5d46f00e2c305 - mexican\Untitled1.exe"
+"e file.type = pe"
+"e fs.view = normal"
+"e graph.aeab = false"
+"e graph.body = true"
+"e graph.bubble = false"
+"e graph.bytes = false"
+"e graph.cmtright = false"
+"e graph.comments = true"
+"e graph.dotted = false"
+"e graph.dummy = true"
+"e graph.edges = 2"
+"e graph.few = false"
+"e graph.font = Courier"
+"e graph.from = 0xffffffffffffffff"
+"e graph.gv.current = false"
+"e graph.gv.edge = "
+"e graph.gv.format = gif"
+"e graph.gv.graph = "
+"e graph.gv.node = "
+"e graph.gv.spline = "
+"e graph.hints = true"
+"e graph.invscroll = false"
+"e graph.json.usenames = true"
+"e graph.layout = 0"
+"e graph.linemode = 1"
+"e graph.nodejmps = true"
+"e graph.ntitles = true"
+"e graph.offset = false"
+"e graph.refs = false"
+"e graph.scroll = 5"
+"e graph.title = "
+"e graph.to = 0xffffffffffffffff"
+"e graph.trace = false"
+"e graph.web = false"
+"e hex.align = false"
+"e hex.ascii = true"
+"e hex.bytes = true"
+"e hex.cols = 16"
+"e hex.comments = true"
+"e hex.compact = false"
+"e hex.depth = 5"
+"e hex.flagsz = 0"
+"e hex.hdroff = false"
+"e hex.header = true"
+"e hex.offset = true"
+"e hex.onechar = false"
+"e hex.pairs = 0"
+"e hex.section = false"
+"e hex.stride = 0"
+"e hex.style = false"
+"e http.allow = "
+"e http.auth = false"
+"e http.authfile = "
+"e http.authtok = r2admin:r2admin"
+"e http.bind = localhost"
+"e http.browser = start"
+"e http.colon = false"
+"e http.cors = false"
+"e http.dietime = 0"
+"e http.dirlist = false"
+"e http.homeroot = ~\.local\share\radare2\www"
+"e http.index = index.html"
+"e http.log = true"
+"e http.logfile = "
+"e http.maxport = 9999"
+"e http.maxsize = 0"
+"e http.port = 9090"
+"e http.referer = "
+"e http.root = ./radare2//share//www"
+"e http.sandbox = true"
+"e http.sync = "
+"e http.timeout = 3"
+"e http.ui = m"
+"e http.upget = false"
+"e http.upload = false"
+"e http.uproot = C:\Users\colib\AppData\Local\Temp"
+"e http.uri = "
+"e http.verbose = false"
+"e hud.path = "
+"e io.0xff = 255"
+"e io.aslr = false"
+"e io.autofd = true"
+"e io.cache = 0"
+"e io.cache.auto = false"
+"e io.cache.read = false"
+"e io.cache.write = false"
+"e io.exec = true"
+"e io.ff = true"
+"e io.pava = false"
+"e io.pcache = 0"
+"e io.pcache.read = 0"
+"e io.pcache.write = 0"
+"e io.unalloc = false"
+"e io.unalloc.ch = ."
+"e io.va = 1"
+"e key.S = "
+"e key.f1 = "
+"e key.f10 = "
+"e key.f11 = "
+"e key.f12 = "
+"e key.f2 = "
+"e key.f3 = "
+"e key.f4 = "
+"e key.f5 = "
+"e key.f6 = "
+"e key.f7 = "
+"e key.f8 = "
+"e key.f9 = "
+"e key.s = "
+"e lines.abs = false"
+"e lines.from = 0"
+"e lines.to = $s"
+"e log.colors = false"
+"e log.events = false"
+"e log.file = "
+"e log.level = 5"
+"e log.srcinfo = false"
+"e log.traplevel = 6"
+"e magic.depth = 100"
+"e pdb.autoload = 0"
+"e pdb.extract = 1"
+"e pdb.server = https://msdl.microsoft.com/download/symbols"
+"e pdb.symstore = C:\Users\colib\.local\share\radare2\pdb"
+"e pdb.useragent = Microsoft-Symbol-Server/6.11.0001.402"
+"e prj.files = false"
+"e prj.git = false"
+"e prj.gpg = false"
+"e prj.name = mexican"
+"e prj.simple = true"
+"e prj.zip = false"
+"e r2dec.asm = false"
+"e r2dec.blocks = false"
+"e r2dec.casts = false"
+"e r2dec.debug = false"
+"e r2dec.highlight = default"
+"e r2dec.paddr = false"
+"e r2dec.slow = false"
+"e r2dec.theme = default"
+"e r2dec.xrefs = false"
+"e r2ghidra.cmt.cpp = true"
+"e r2ghidra.cmt.indent = 4"
+"e r2ghidra.indent = 4"
+"e r2ghidra.lang = "
+"e r2ghidra.linelen = 120"
+"e r2ghidra.nl.brace = false"
+"e r2ghidra.nl.else = false"
+"e r2ghidra.rawptr = true"
+"e r2ghidra.sleighhome = D:/_data/Program/cutter/radare2/lib/plugins/r2ghidra_sleigh"
+"e r2ghidra.verbose = true"
+"e rap.loop = true"
+"e rop.comments = false"
+"e rop.conditional = false"
+"e rop.db = true"
+"e rop.len = 5"
+"e rop.sdb = false"
+"e rop.subchains = false"
+"e scr.ansicon = 1"
+"e scr.bgfill = false"
+"e scr.breaklines = false"
+"e scr.breakword = "
+"e scr.color = 0"
+"e scr.color.args = true"
+"e scr.color.bytes = true"
+"e scr.color.grep = false"
+"e scr.color.ops = true"
+"e scr.color.pipe = false"
+"e scr.columns = 0"
+"e scr.confirmquit = false"
+"e scr.demo = false"
+"e scr.dumpcols = false"
+"e scr.echo = false"
+"e scr.feedback = 1"
+"e scr.fgets = false"
+"e scr.fix.columns = 0"
+"e scr.fix.rows = 0"
+"e scr.flush = false"
+"e scr.fps = false"
+"e scr.gadgets = true"
+"e scr.highlight = "
+"e scr.highlight.grep = false"
+"e scr.hist.block = true"
+"e scr.histsave = true"
+"e scr.html = false"
+"e scr.interactive = 0"
+"e scr.last = true"
+"e scr.layout = "
+"e scr.linesleep = 0"
+"e scr.maxtab = 0x00001000"
+"e scr.nkey = flag"
+"e scr.null = false"
+"e scr.pager = "
+"e scr.pagesize = 1"
+"e scr.panelborder = false"
+"e scr.prompt = true"
+"e scr.prompt.file = false"
+"e scr.prompt.flag = false"
+"e scr.prompt.mode = false"
+"e scr.prompt.popup = false"
+"e scr.prompt.sect = false"
+"e scr.prompt.vi = false"
+"e scr.rainbow = false"
+"e scr.randpal = false"
+"e scr.responsive = false"
+"e scr.rows = 0"
+"e scr.scrollbar = 0"
+"e scr.seek = "
+"e scr.slow = true"
+"e scr.square = true"
+"e scr.strconv = asciiesc"
+"e scr.tee = "
+"e scr.tts = false"
+"e scr.utf8 = false"
+"e scr.utf8.curvy = false"
+"e scr.wheel = true"
+"e scr.wheel.nkey = false"
+"e scr.wheel.speed = 4"
+"e scr.wideoff = false"
+"e search.align = 0"
+"e search.chunk = 0"
+"e search.contiguous = true"
+"e search.distance = 0"
+"e search.esilcombo = 8"
+"e search.flags = false"
+"e search.from = 0xffffffffffffffff"
+"e search.in = bin.section"
+"e search.kwidx = 3"
+"e search.maxhits = 0"
+"e search.overlap = false"
+"e search.prefix = hit"
+"e search.show = true"
+"e search.to = 0xffffffffffffffff"
+"e stack.anotated = false"
+"e stack.bytes = true"
+"e stack.delta = 0"
+"e stack.reg = SP"
+"e stack.size = 64"
+"e str.escbslash = false"
+"e tcp.islocal = false"
+"e time.fmt = %Y-%m-%d %H:%M:%S %z"
+"e time.zone = 0"
+"e zign.autoload = false"
+"e zign.bytes = true"
+"e zign.diff.bthresh = 1.0"
+"e zign.diff.gthresh = 1.0"
+"e zign.graph = true"
+"e zign.hash = true"
+"e zign.maxsz = 500"
+"e zign.mincc = 10"
+"e zign.minsz = 16"
+"e zign.offset = true"
+"e zign.prefix = sign"
+"e zign.refs = true"
+"e zign.types = true"
+"e zoom.byte = h"
+"e zoom.from = 0"
+"e zoom.in = io.map"
+"e zoom.maxsz = 512"
+"e zoom.to = 0"
+# functions
+fs functions
+"f entry0 890 0x004014e0"
+"af+ 0x004014e0 entry0 f n"
+afb+ 0x004014e0 0x00401180 111 0x00401470 0x004011ef
+afb+ 0x004014e0 0x004011ef 19 0x00401216 0xffffffffffffffff
+afb+ 0x004014e0 0x00401202 8 0x00401411 0x0040120a
+afb+ 0x004014e0 0x0040120a 12 0x00401216 0xffffffffffffffff
+afb+ 0x004014e0 0x00401216 14 0x00401202 0x00401224
+afb+ 0x004014e0 0x00401224 16 0x00401424 0x00401234
+afb+ 0x004014e0 0x00401234 13 0x00401481 0x00401241
+afb+ 0x004014e0 0x00401241 10 0x0040124b 0xffffffffffffffff
+afb+ 0x004014e0 0x0040124b 14 0x0040143e 0x00401259
+afb+ 0x004014e0 0x00401259 8 0x00401464 0x00401261
+afb+ 0x004014e0 0x00401261 9 0x00401286 0x0040126a
+afb+ 0x004014e0 0x0040126a 28 0x00401286 0xffffffffffffffff
+afb+ 0x004014e0 0x00401286 64 0x00401314 0x004012c6
+afb+ 0x004014e0 0x004012c6 4 0x004012e1 0xffffffffffffffff
+afb+ 0x004014e0 0x004012d0 4 0x0040130f 0x004012d4
+afb+ 0x004014e0 0x004012d4 5 0x00401304 0x004012d9
+afb+ 0x004014e0 0x004012d9 5 0x004012de 0xffffffffffffffff
+afb+ 0x004014e0 0x004012de 3 0x004012e1 0xffffffffffffffff
+afb+ 0x004014e0 0x004012e1 8 0x004012d0 0x004012e9
+afb+ 0x004014e0 0x004012e9 13 0x004012de 0xffffffffffffffff
+afb+ 0x004014e0 0x00401300 4 0x0040130f 0x00401304
+afb+ 0x004014e0 0x00401304 11 0x00401300 0x0040130f
+afb+ 0x004014e0 0x0040130f 5 0x00401314 0xffffffffffffffff
+afb+ 0x004014e0 0x00401314 10 0x00401333 0x0040131e
+afb+ 0x004014e0 0x0040131e 21 0x00401333 0xffffffffffffffff
+afb+ 0x004014e0 0x00401333 45 0x004014a4 0x00401360
+afb+ 0x004014e0 0x00401360 4 0x00401364 0xffffffffffffffff
+afb+ 0x004014e0 0x00401364 55 0x00401364 0x0040139b
+afb+ 0x004014e0 0x0040139b 6 0x004013a1 0xffffffffffffffff
+afb+ 0x004014e0 0x004013a1 84 0x004014ab 0x004013f5
+afb+ 0x004014e0 0x004013f5 10 0x00401409 0x004013ff
+afb+ 0x004014e0 0x004013ff 10 0x00401409 0xffffffffffffffff
+afb+ 0x004014e0 0x00401409 8 0xffffffffffffffff 0xffffffffffffffff
+afb+ 0x004014e0 0x00401411 19 0x00401234 0x00401424
+afb+ 0x004014e0 0x00401424 26 0x00401259 0x0040143e
+afb+ 0x004014e0 0x0040143e 38 0x00401261 0x00401464
+afb+ 0x004014e0 0x00401464 11 0x00401261 0xffffffffffffffff
+afb+ 0x004014e0 0x00401470 17 0x004011ef 0xffffffffffffffff
+afb+ 0x004014e0 0x00401481 35 0x0040124b 0xffffffffffffffff
+afb+ 0x004014e0 0x004014a4 7 0x004013a1 0xffffffffffffffff
+afb+ 0x004014e0 0x004014ab 47 0x00401180 0xffffffffffffffff
+afb+ 0x004014e0 0x004014e0 26 0x00401180 0xffffffffffffffff
+afB 32 @ 0x004014e0
+afc cdecl @ 0x004014e0
+afvb -116 var_74h int32_t @ 0x4014e0
+afvb -112 var_70h uint32_t @ 0x4014e0
+afvb -108 var_6ch void ** @ 0x4014e0
+afvb -92 var_5ch int32_t @ 0x4014e0
+afvb -48 var_30h int32_t @ 0x4014e0
+afvb -44 var_2ch int32_t @ 0x4014e0
+afvb -12 var_ch int32_t @ 0x4014e0
+afvs -144 argv char *** @ 0x4014e0
+afvs -140 envp size_t @ 0x4014e0
+afvs -136 var_88h int32_t @ 0x4014e0
+afvs -113 var_71h int32_t @ 0x4014e0
+axC 0x4026a0 0x401199
+axd 0x405034 0x4011e1
+axc 0x401470 0x4011e9
+axd 0x406134 0x4011fa
+axc 0x401216 0x401200
+axc 0x401411 0x401204
+axc 0x401202 0x401222
+axd 0x40543c 0x401224
+axc 0x401424 0x40122e
+axd 0x40543c 0x401234
+axc 0x401481 0x40123b
+axd 0x405004 0x401241
+axd 0x40543c 0x40124b
+axc 0x40143e 0x401253
+axc 0x401464 0x40125b
+axd 0x404010 0x401261
+axc 0x401286 0x401268
+axC 0x401c70 0x401286
+axd 0x401860 0x40128b
+axC 0x406130 0x401292
+axd 0x405044 0x40129b
+axd 0x401000 0x4012a0
+axC 0x4026f0 0x4012a7
+axC 0x401f30 0x4012ac
+axd 0x406168 0x4012b1
+axd 0x40542c 0x4012b6
+axc 0x401314 0x4012c4
+axc 0x4012e1 0x4012c8
+axc 0x40130f 0x4012d2
+axc 0x401304 0x4012d7
+axc 0x4012d0 0x4012e7
+axc 0x4012de 0x4012f4
+axc 0x40130f 0x401302
+axc 0x401300 0x40130d
+axd 0x405428 0x40130f
+axd 0x405034 0x401314
+axc 0x401333 0x40131c
+axd 0x403000 0x40132e
+axd 0x40501c 0x401333
+axC 0x402700 0x40134a
+axd 0x405018 0x401354
+axc 0x4014a4 0x40135a
+axC 0x402708 0x40136a
+axC 0x402700 0x401375
+axC 0x402710 0x401391
+axc 0x401364 0x401399
+axd 0x405018 0x4013ab
+axC 0x401fc0 0x4013b1
+axd 0x406158 0x4013b6
+axd 0x405014 0x4013bb
+axd 0x405014 0x4013c3
+axd 0x405018 0x4013cc
+axd 0x40501c 0x4013d5
+axC 0x40162c 0x4013dd
+axd 0x405008 0x4013e2
+axd 0x40500c 0x4013e8
+axc 0x4014ab 0x4013ef
+axd 0x405004 0x4013f5
+axc 0x401409 0x4013fd
+axC 0x402718 0x4013ff
+axd 0x40500c 0x401404
+axd 0x40543c 0x401411
+axc 0x401234 0x40141e
+axC 0x402720 0x40142b
+axd 0x40543c 0x401430
+axc 0x401259 0x401438
+axd 0x407008 0x40143e
+axd 0x407000 0x401446
+axC 0x402728 0x40144d
+axd 0x40543c 0x401454
+axc 0x401261 0x40145e
+axc 0x401261 0x40146a
+axC 0x406118 0x401473
+axc 0x4011ef 0x40147c
+axd 0x40543c 0x401481
+axd 0x407018 0x40148b
+axd 0x40700c 0x401493
+axC 0x402728 0x40149a
+axc 0x40124b 0x40149f
+axc 0x4013a1 0x4014a6
+axC 0x402730 0x4014ae
+axd 0x405034 0x4014c3
+axC 0x401fe0 0x4014cd
+axc 0x401180 0x4014d5
+axd 0x405034 0x4014e3
+axC 0x401fe0 0x4014ed
+axc 0x401180 0x4014f5
+afS 160 @ 0x4014e0
+"f sym.___mingw_invalidParameterHandler 2 0x00401000"
+"af+ 0x00401000 sym.___mingw_invalidParameterHandler s n"
+afb+ 0x00401000 0x00401000 2 0xffffffffffffffff 0xffffffffffffffff
+afB 32 @ 0x00401000
+afc cdecl @ 0x00401000
+afS 0 @ 0x401000
+"f sym._pre_c_init 286 0x00401010"
+"af+ 0x00401010 sym._pre_c_init s n"
+afb+ 0x00401010 0x00401010 56 0x004010b0 0x00401048
+afb+ 0x00401010 0x00401048 14 0x004010a0 0x00401056
+afb+ 0x00401010 0x00401056 12 0x00401062 0xffffffffffffffff
+afb+ 0x00401010 0x00401062 49 0x00401100 0x00401093
+afb+ 0x00401010 0x00401093 6 0xffffffffffffffff 0xffffffffffffffff
+afb+ 0x00401010 0x004010a0 14 0x00401062 0xffffffffffffffff
+afb+ 0x00401010 0x004010b0 24 0x00401048 0x004010c8
+afb+ 0x00401010 0x004010c8 11 0x00401112 0x004010d3
+afb+ 0x00401010 0x004010d3 11 0x00401048 0x004010de
+afb+ 0x00401010 0x004010de 13 0x00401048 0x004010eb
+afb+ 0x00401010 0x004010eb 18 0x00401048 0xffffffffffffffff
+afb+ 0x00401010 0x00401100 18 0xffffffffffffffff 0xffffffffffffffff
+afb+ 0x00401010 0x00401112 10 0x00401048 0x0040111c
+afb+ 0x00401010 0x0040111c 18 0x00401048 0xffffffffffffffff
+afB 32 @ 0x00401010
+afc cdecl @ 0x00401010
+axd 0x405028 0x40101e
+axd 0x405024 0x401028
+axd 0x405020 0x401032
+axd 0x405030 0x40103c
+axc 0x4010b0 0x401046
+axd 0x405008 0x401048
+axd 0x405034 0x40104d
+axc 0x4010a0 0x401054
+axC 0x4026cc 0x40105d
+axC 0x401770 0x401069
+axd 0x405038 0x40106e
+axd 0x405430 0x401074
+axd 0x405434 0x401079
+axd 0x406174 0x40107e
+axC 0x401a00 0x401085
+axd 0x403018 0x40108a
+axc 0x401100 0x401091
+axC 0x4026cc 0x4010a7
+axc 0x401062 0x4010ac
+axc 0x401048 0x4010c6
+axc 0x401112 0x4010d1
+axc 0x401048 0x4010d8
+axc 0x401048 0x4010e5
+axc 0x401048 0x4010f8
+axd 0x401a70 0x401100
+axC 0x401a60 0x401107
+axc 0x401048 0x401116
+axc 0x401048 0x401129
+afS 28 @ 0x401010
+"f sym._pre_cpp_init 67 0x00401130"
+"af+ 0x00401130 sym._pre_cpp_init s n"
+afb+ 0x00401130 0x00401130 67 0xffffffffffffffff 0xffffffffffffffff
+afB 32 @ 0x00401130
+afc cdecl @ 0x00401130
+afvs -40 var_28h int32_t @ 0x401130
+afvs -36 var_24h int32_t @ 0x401130
+afvs -32 var_20h int32_t @ 0x401130
+afvs -28 var_1ch int32_t @ 0x401130
+axd 0x40503c 0x401133
+axd 0x405000 0x401138
+axd 0x405014 0x401140
+axd 0x405018 0x401148
+axd 0x40501c 0x401150
+axd 0x405000 0x401157
+axd 0x405040 0x40115c
+axC 0x4026d4 0x401165
+axd 0x405010 0x40116a
+afS 44 @ 0x401130
+"f sym.___getmainargs 6 0x004026d4"
+"af+ 0x004026d4 sym.___getmainargs s n"
+afb+ 0x004026d4 0x004026d4 6 0xffffffffffffffff 0xffffffffffffffff
+afB 32 @ 0x004026d4
+afc cdecl @ 0x004026d4
+axc 0x406154 0x4026d4
+afS 0 @ 0x4026d4
+"f sym.flag 300 0x00401500"
+"af+ 0x00401500 sym.flag s n"
+afb+ 0x00401500 0x00401500 300 0xffffffffffffffff 0xffffffffffffffff
+afB 32 @ 0x00401500
+afc cdecl @ 0x00401500
+afvb -12 var_ch void * @ 0x401500
+afvs -40 var_28h void * @ 0x401500
+axC 0x402700 0x40150d
+axd 0x404000 0x40161e
+axC 0x402738 0x401625
+afS 44 @ 0x401500
+"f sym._malloc 6 0x00402700"
+"af+ 0x00402700 sym._malloc s n"
+afb+ 0x00402700 0x00402700 6 0xffffffffffffffff 0xffffffffffffffff
+afB 32 @ 0x00402700
+afc cdecl @ 0x00402700
+axc 0x4061a4 0x402700
+afS 0 @ 0x402700
+"f sym._printf 6 0x00402738"
+"af+ 0x00402738 sym._printf s n"
+afb+ 0x00402738 0x00402738 6 0xffffffffffffffff 0xffffffffffffffff
+afB 32 @ 0x00402738
+afc cdecl @ 0x00402738
+axc 0x4061ac 0x402738
+afS 0 @ 0x402738
+"f main 58 0x0040162c"
+"af+ 0x0040162c main s n"
+afb+ 0x0040162c 0x0040162c 32 0x00401653 0x0040164c
+afb+ 0x0040162c 0x0040164c 7 0x0040165f 0xffffffffffffffff
+afb+ 0x0040162c 0x00401653 12 0x0040165f 0xffffffffffffffff
+afb+ 0x0040162c 0x0040165f 7 0xffffffffffffffff 0xffffffffffffffff
+afB 32 @ 0x0040162c
+afc cdecl @ 0x0040162c
+afvs -8 var_8h signed int @ 0x40162c
+axC 0x401fc0 0x401635
+axc 0x401653 0x40164a
+axC 0x401500 0x40164c
+axc 0x40165f 0x401651
+axd 0x404003 0x401653
+axC 0x402738 0x40165a
+afS 36 @ 0x40162c
+"f entry2 67 0x00401670"
+"af+ 0x00401670 entry2 f n"
+afb+ 0x00401670 0x00401670 11 0x00401690 0x0040167b
+afb+ 0x00401670 0x0040167b 5 0x00401690 0x00401680
+afb+ 0x00401670 0x00401680 11 0xffffffffffffffff 0xffffffffffffffff
+afb+ 0x00401670 0x00401690 35 0xffffffffffffffff 0xffffffffffffffff
+afB 32 @ 0x00401670
+afc cdecl @ 0x00401670
+afvs -24 var_18h int32_t @ 0x401670
+afvs -20 var_14h int32_t @ 0x401670
+afvs 4 arg_4h int32_t @ 0x401670
+afvs 8 arg_8h int32_t @ 0x401670
+afvs 12 arg_ch int32_t @ 0x401670
+axc 0x401690 0x401679
+axc 0x401690 0x40167e
+axC 0x4022b0 0x4016a3
+afS 28 @ 0x401670
+"f sym.___mingw_TLScallback 151 0x004022b0"
+"af+ 0x004022b0 sym.___mingw_TLScallback s n"
+afb+ 0x004022b0 0x004022b0 12 0x00402304 0x004022bc
+afb+ 0x004022b0 0x004022bc 2 0x004022d5 0x004022be
+afb+ 0x004022b0 0x004022be 5 0x004022cc 0x004022c3
+afb+ 0x004022b0 0x004022c3 9 0x00402332 0x004022cc
+afb+ 0x004022b0 0x004022cc 9 0xffffffffffffffff 0xffffffffffffffff
+afb+ 0x004022b0 0x004022d5 9 0x00402340 0x004022de
+afb+ 0x004022b0 0x004022de 10 0x004022cc 0x004022e8
+afb+ 0x004022b0 0x004022e8 28 0x004022cc 0xffffffffffffffff
+afb+ 0x004022b0 0x00402304 9 0x00402320 0x0040230d
+afb+ 0x004022b0 0x0040230d 19 0xffffffffffffffff 0xffffffffffffffff
+afb+ 0x004022b0 0x00402320 18 0x0040230d 0xffffffffffffffff
+afb+ 0x004022b0 0x00402332 7 0x004022cc 0xffffffffffffffff
+afb+ 0x004022b0 0x00402340 7 0x004022de 0xffffffffffffffff
+afB 32 @ 0x004022b0
+afc cdecl @ 0x004022b0
+afvs 8 arg_8h int32_t @ 0x4022b0
+axc 0x402304 0x4022ba
+axc 0x4022d5 0x4022bc
+axc 0x4022cc 0x4022c1
+axd 0x405404 0x4022c3
+axc 0x402332 0x4022ca
+axd 0x405404 0x4022d5
+axc 0x402340 0x4022dc
+axd 0x405404 0x4022de
+axc 0x4022cc 0x4022e6
+axd 0x405404 0x4022e8
+axd 0x405408 0x4022f2
+axC 0x406100 0x4022f9
+axc 0x4022cc 0x402302
+axd 0x405404 0x402304
+axc 0x402320 0x40230b
+axd 0x405404 0x40230d
+axd 0x405408 0x402320
+axC 0x406124 0x402327
+axc 0x40230d 0x402330
+axC 0x402120 0x402332
+axc 0x4022cc 0x402337
+axC 0x402120 0x402340
+axc 0x4022de 0x402345
+afS 32 @ 0x4022b0
+"f entry1 126 0x004016c0"
+"af+ 0x004016c0 entry1 f n"
+afb+ 0x004016c0 0x004016c0 17 0x004016db 0x004016d1
+afb+ 0x004016c0 0x004016d1 10 0x004016db 0xffffffffffffffff
+afb+ 0x004016c0 0x004016db 5 0x004016f1 0x004016e0
+afb+ 0x004016c0 0x004016e0 5 0x00401720 0x004016e5
+afb+ 0x004016c0 0x004016e5 12 0xffffffffffffffff 0xffffffffffffffff
+afb+ 0x004016c0 0x004016f1 13 0x004016e5 0x004016fe
+afb+ 0x004016c0 0x004016fe 2 0x00401700 0xffffffffffffffff
+afb+ 0x004016c0 0x00401700 6 0x00401708 0x00401706
+afb+ 0x004016c0 0x00401706 2 0x00401708 0xffffffffffffffff
+afb+ 0x004016c0 0x00401708 11 0x00401700 0x00401713
+afb+ 0x004016c0 0x00401713 12 0xffffffffffffffff 0xffffffffffffffff
+afb+ 0x004016c0 0x00401720 30 0x004016e5 0xffffffffffffffff
+afB 32 @ 0x004016c0
+afc cdecl @ 0x004016c0
+afvs -24 var_18h int32_t @ 0x4016c0
+afvs -20 var_14h int32_t @ 0x4016c0
+afvs 4 arg_4h int32_t @ 0x4016c0
+afvs 8 arg_8h int32_t @ 0x4016c0
+afvs 12 arg_ch int32_t @ 0x4016c0
+axd 0x403014 0x4016c4
+axc 0x4016db 0x4016cf
+axd 0x403014 0x4016d1
+axc 0x4016f1 0x4016de
+axc 0x401720 0x4016e3
+axd 0x407030 0x4016f1
+axd 0x407030 0x4016f6
+axc 0x4016e5 0x4016fc
+axc 0x401708 0x401704
+axd 0x407030 0x40170b
+axc 0x401700 0x401711
+axC 0x4022b0 0x401737
+axc 0x4016e5 0x40173c
+afS 28 @ 0x4016c0
+"f sym.___tlregdtor 3 0x00401740"
+"af+ 0x00401740 sym.___tlregdtor s n"
+afb+ 0x00401740 0x00401740 3 0xffffffffffffffff 0xffffffffffffffff
+afB 32 @ 0x00401740
+afc cdecl @ 0x00401740
+afS 0 @ 0x401740
+"f _my_lconv_init 7 0x00401750"
+"af+ 0x00401750 _my_lconv_init f n"
+afb+ 0x00401750 0x00401750 7 0xffffffffffffffff 0xffffffffffffffff
+afB 32 @ 0x00401750
+afc cdecl @ 0x00401750
+axd 0x40615c 0x401750
+afS 0 @ 0x401750
+"f sym.__decode_pointer 5 0x00401760"
+"af+ 0x00401760 sym.__decode_pointer s n"
+afb+ 0x00401760 0x00401760 5 0xffffffffffffffff 0xffffffffffffffff
+afB 32 @ 0x00401760
+afc cdecl @ 0x00401760
+afvs 4 arg_4h int32_t @ 0x401760
+afS 0 @ 0x401760
+"f sym.__encode_pointer 5 0x00401770"
+"af+ 0x00401770 sym.__encode_pointer s n"
+afb+ 0x00401770 0x00401770 5 0xffffffffffffffff 0xffffffffffffffff
+afB 32 @ 0x00401770
+afc cdecl @ 0x00401770
+afvs 4 arg_4h int32_t @ 0x401770
+afS 0 @ 0x401770
+"f sym._mingw_onexit 178 0x00401780"
+"af+ 0x00401780 sym._mingw_onexit s n"
+afb+ 0x00401780 0x00401780 30 0x00401820 0x0040179e
+afb+ 0x00401780 0x0040179e 129 0xffffffffffffffff 0xffffffffffffffff
+afb+ 0x00401780 0x00401820 18 0xffffffffffffffff 0xffffffffffffffff
+afB 32 @ 0x00401780
+afc cdecl @ 0x00401780
+afvs -40 var_28h int32_t @ 0x401780
+afvs -36 var_24h int32_t @ 0x401780
+afvs -20 var_14h int32_t @ 0x401780
+afvs -16 var_10h int32_t @ 0x401780
+afvs 4 arg_4h int32_t @ 0x401780
+axd 0x405434 0x401784
+axC 0x401760 0x40178c
+axc 0x401820 0x401798
+axC 0x402740 0x4017a5
+axd 0x405434 0x4017aa
+axC 0x401760 0x4017b2
+axd 0x405430 0x4017bb
+axC 0x401760 0x4017c3
+axC 0x402748 0x4017e3
+axC 0x401770 0x4017f1
+axd 0x405434 0x4017f6
+axC 0x401770 0x401802
+axd 0x405430 0x40180e
+axC 0x402750 0x401813
+axC 0x406184 0x401827
+afS 44 @ 0x401780
+"f sym.__lock 6 0x00402740"
+"af+ 0x00402740 sym.__lock s n"
+afb+ 0x00402740 0x00402740 6 0xffffffffffffffff 0xffffffffffffffff
+afB 32 @ 0x00402740
+afc cdecl @ 0x00402740
+axc 0x406180 0x402740
+afS 0 @ 0x402740
+"f sym.___dllonexit 6 0x00402748"
+"af+ 0x00402748 sym.___dllonexit s n"
+afb+ 0x00402748 0x00402748 6 0xffffffffffffffff 0xffffffffffffffff
+afB 32 @ 0x00402748
+afc cdecl @ 0x00402748
+axc 0x406150 0x402748
+afS 0 @ 0x402748
+"f sym.__unlock 6 0x00402750"
+"af+ 0x00402750 sym.__unlock s n"
+afb+ 0x00402750 0x00402750 6 0xffffffffffffffff 0xffffffffffffffff
+afB 32 @ 0x00402750
+afc cdecl @ 0x00402750
+axc 0x406188 0x402750
+afS 0 @ 0x402750
+"f sym._atexit 29 0x00401840"
+"af+ 0x00401840 sym._atexit s n"
+afb+ 0x00401840 0x00401840 29 0xffffffffffffffff 0xffffffffffffffff
+afB 32 @ 0x00401840
+afc cdecl @ 0x00401840
+afvs 4 arg_4h int32_t @ 0x401840
+axC 0x401780 0x40184a
+afS 28 @ 0x401840
+"f sym.__gnu_exception_handler_4 409 0x00401860"
+"af+ 0x00401860 sym.__gnu_exception_handler_4 s n"
+afb+ 0x00401860 0x00401860 21 0x004018c0 0x00401875
+afb+ 0x00401860 0x00401875 11 0x00401930 0x00401880
+afb+ 0x00401860 0x00401880 11 0x00401964 0x0040188b
+afb+ 0x00401860 0x0040188b 29 0x004019c0 0x004018a8
+afb+ 0x00401860 0x004018a8 4 0x004018d9 0x004018ac
+afb+ 0x00401860 0x004018ac 11 0x0040191a 0xffffffffffffffff
+afb+ 0x00401860 0x004018c0 7 0x004018f0 0x004018c7
+afb+ 0x00401860 0x004018c7 11 0x0040196f 0x004018d2
+afb+ 0x00401860 0x004018d2 7 0x00401930 0x004018d9
+afb+ 0x00401860 0x004018d9 9 0x0040191f 0x004018e2
+afb+ 0x00401860 0x004018e2 9 0xffffffffffffffff 0xffffffffffffffff
+afb+ 0x00401860 0x004018f0 29 0x004019e0 0x0040190d
+afb+ 0x00401860 0x0040190d 4 0x004018d9 0x00401911
+afb+ 0x00401860 0x00401911 9 0x0040191a 0xffffffffffffffff
+afb+ 0x00401860 0x0040191a 5 0x0040191f 0xffffffffffffffff
+afb+ 0x00401860 0x0040191f 7 0xffffffffffffffff 0xffffffffffffffff
+afb+ 0x00401860 0x00401930 25 0x0040190d 0x00401949
+afb+ 0x00401860 0x00401949 27 0x0040191a 0xffffffffffffffff
+afb+ 0x00401860 0x00401964 11 0x004018d9 0x0040196f
+afb+ 0x00401860 0x0040196f 25 0x004019a0 0x00401988
+afb+ 0x00401860 0x00401988 8 0x004018d9 0x00401990
+afb+ 0x00401860 0x00401990 14 0x0040191a 0xffffffffffffffff
+afb+ 0x00401860 0x004019a0 25 0x0040191a 0xffffffffffffffff
+afb+ 0x00401860 0x004019c0 25 0x0040191a 0xffffffffffffffff
+afb+ 0x00401860 0x004019e0 25 0x0040191a 0xffffffffffffffff
+afB 32 @ 0x00401860
+afc cdecl @ 0x00401860
+afvb -4 var_4h int32_t @ 0x401860
+afvb 8 arg_8h int32_t @ 0x401860
+afvs -24 func void * @ 0x401860
+axc 0x4018c0 0x401873
+axc 0x401930 0x40187a
+axc 0x401964 0x401885
+axC 0x402758 0x40189a
+axc 0x4019c0 0x4018a2
+axc 0x4018d9 0x4018aa
+axc 0x40191a 0x4018b5
+axc 0x4018f0 0x4018c5
+axc 0x40196f 0x4018cc
+axc 0x401930 0x4018d7
+axd 0x405044 0x4018d9
+axc 0x40191f 0x4018e0
+axC 0x402758 0x4018ff
+axc 0x4019e0 0x401907
+axc 0x4018d9 0x40190f
+axC 0x402758 0x40193f
+axc 0x40190d 0x401947
+axC 0x402758 0x401958
+axC 0x401f30 0x40195d
+axc 0x40191a 0x401962
+axc 0x4018d9 0x401969
+axC 0x402758 0x40197e
+axc 0x4019a0 0x401986
+axc 0x4018d9 0x40198a
+axc 0x40191a 0x401999
+axC 0x402758 0x4019af
+axc 0x40191a 0x4019b4
+axC 0x402758 0x4019cf
+axc 0x40191a 0x4019d4
+axC 0x402758 0x4019ef
+axc 0x40191a 0x4019f4
+afS 28 @ 0x401860
+"f sym.__setargv 3 0x00401a00"
+"af+ 0x00401a00 sym.__setargv s n"
+afb+ 0x00401a00 0x00401a00 3 0xffffffffffffffff 0xffffffffffffffff
+afB 32 @ 0x00401a00
+afc cdecl @ 0x00401a00
+afS 0 @ 0x401a00
+"f sym.___mingw_raise_matherr 75 0x00401a10"
+"af+ 0x00401a10 sym.___mingw_raise_matherr s n"
+afb+ 0x00401a10 0x00401a10 24 0x00401a51 0x00401a28
+afb+ 0x00401a10 0x00401a28 41 0x00401a57 0xffffffffffffffff
+afb+ 0x00401a10 0x00401a51 6 0x00401a57 0xffffffffffffffff
+afb+ 0x00401a10 0x00401a57 4 0xffffffffffffffff 0xffffffffffffffff
+afB 32 @ 0x00401a10
+afc cdecl @ 0x00401a10
+afvs -44 var_2ch int32_t @ 0x401a10
+afvs -40 var_28h int32_t @ 0x401a10
+afvs 4 arg_4h int32_t @ 0x401a10
+afvs 8 arg_8h int32_t @ 0x401a10
+axd 0x405048 0x401a13
+axc 0x401a51 0x401a26
+axc 0x401a57 0x401a4f
+afS 60 @ 0x401a10
+"f sym.___mingw_setusermatherr 14 0x00401a60"
+"af+ 0x00401a60 sym.___mingw_setusermatherr s n"
+afb+ 0x00401a60 0x00401a60 14 0xffffffffffffffff 0xffffffffffffffff
+afB 32 @ 0x00401a60
+afc cdecl @ 0x00401a60
+afvs 4 arg_4h int32_t @ 0x401a60
+axd 0x405048 0x401a64
+axc 0x402760 0x401a69
+afS 0 @ 0x401a60
+"f sym.___setusermatherr 6 0x00402760"
+"af+ 0x00402760 sym.___setusermatherr s n"
+afb+ 0x00402760 0x00402760 6 0xffffffffffffffff 0xffffffffffffffff
+afB 32 @ 0x00402760
+afc cdecl @ 0x00402760
+axc 0x406164 0x402760
+afS 0 @ 0x402760
+"f sym.__matherr 91 0x00401a70"
+"af+ 0x00401a70 sym.__matherr s n"
+afb+ 0x00401a70 0x00401a70 22 0x00401a8d 0x00401a86
+afb+ 0x00401a70 0x00401a86 7 0x00401a8d 0xffffffffffffffff
+afb+ 0x00401a70 0x00401a8d 62 0xffffffffffffffff 0xffffffffffffffff
+afB 32 @ 0x00401a70
+afc cdecl @ 0x00401a70
+afvs -56 format char * @ 0x401a70
+afvs -52 var_34h char ** @ 0x401a70
+afvs -48 var_30h char ** @ 0x401a70
+afvs 4 arg_4h int32_t @ 0x401a70
+axd 0x404014 0x401a73
+axc 0x401a8d 0x401a84
+axd 0x404130 0x401a86
+axd 0x404024 0x401aa9
+axd 0x40617c 0x401ab5
+axC 0x402768 0x401ac0
+afS 60 @ 0x401a70
+"f sym._fprintf 6 0x00402768"
+"af+ 0x00402768 sym._fprintf s n"
+afb+ 0x00402768 0x00402768 6 0xffffffffffffffff 0xffffffffffffffff
+afB 32 @ 0x00402768
+afc cdecl @ 0x00402768
+axc 0x406198 0x402768
+afS 0 @ 0x402768
+"f sym.___report_error 83 0x00401ad0"
+"af+ 0x00401ad0 sym.___report_error s n"
+afb+ 0x00401ad0 0x00401ad0 83 0x00401b30 0xffffffffffffffff
+afB 32 @ 0x00401ad0
+afc cdecl @ 0x00401ad0
+afvb -64 var_40h int32_t @ 0x401ad0
+afvb -60 var_3ch int32_t @ 0x401ad0
+afvb -56 var_38h int32_t @ 0x401ad0
+afvb -52 var_34h int32_t @ 0x401ad0
+afvb -40 var_28h int32_t @ 0x401ad0
+afvb -12 var_ch int32_t @ 0x401ad0
+afvs -188 var_bch int32_t @ 0x401ad0
+afvs -184 var_b8h int32_t @ 0x401ad0
+afvs -180 var_b4h int32_t @ 0x401ad0
+afvs -176 var_b0h int32_t @ 0x401ad0
+afvs -172 var_ach int32_t @ 0x401ad0
+afvs -149 var_95h int32_t @ 0x401ad0
+afvs -112 var_70h int32_t @ 0x401ad0
+afvs -108 var_6ch int32_t @ 0x401ad0
+afvs -96 var_60h int32_t @ 0x401ad0
+afvs -92 var_5ch int32_t @ 0x401ad0
+afvs -88 var_58h int32_t @ 0x401ad0
+afvs -84 var_54h int32_t @ 0x401ad0
+afvs -80 var_50h int32_t @ 0x401ad0
+afvs -68 var_44h int32_t @ 0x401ad0
+afvs -60 var_3ch int32_t @ 0x401ad0
+afvs -24 format size_t @ 0x401ad0
+afvs -20 nitems size_t @ 0x401ad0
+afvs -16 stream FILE * @ 0x401ad0
+afvs 4 arg_4h int32_t @ 0x401ad0
+afvs 8 arg_8h int32_t @ 0x401ad0
+axd 0x40617c 0x401ad4
+axd 0x404148 0x401aed
+axC 0x402770 0x401afb
+axd 0x40617c 0x401b0c
+axC 0x402778 0x401b17
+axC 0x402780 0x401b1c
+axc 0x401b30 0x401b21
+afS 208 @ 0x401ad0
+"f sym.___do_global_dtors 44 0x00401f40"
+"af+ 0x00401f40 sym.___do_global_dtors s n"
+afb+ 0x00401f40 0x00401f40 11 0x00401f6a 0x00401f4b
+afb+ 0x00401f40 0x00401f4b 5 0x00401f50 0xffffffffffffffff
+afb+ 0x00401f40 0x00401f50 23 0x00401f50 0x00401f67
+afb+ 0x00401f40 0x00401f67 3 0x00401f6a 0xffffffffffffffff
+afb+ 0x00401f40 0x00401f6a 2 0xffffffffffffffff 0xffffffffffffffff
+afB 32 @ 0x00401f40
+afc cdecl @ 0x00401f40
+axd 0x403010 0x401f40
+axc 0x401f6a 0x401f49
+axd 0x403010 0x401f52
+axd 0x403010 0x401f5d
+axc 0x401f50 0x401f65
+afS 12 @ 0x401f40
+"f sym.___do_global_ctors 70 0x00401f70"
+"af+ 0x00401f70 sym.___do_global_ctors s n"
+afb+ 0x00401f70 0x00401f70 15 0x00401fa0 0x00401f7f
+afb+ 0x00401f70 0x00401f7f 4 0x00401f8f 0x00401f83
+afb+ 0x00401f70 0x00401f83 12 0x00401f83 0x00401f8f
+afb+ 0x00401f70 0x00401f8f 17 0xffffffffffffffff 0xffffffffffffffff
+afb+ 0x00401f70 0x00401fa0 4 0x00401fa6 0xffffffffffffffff
+afb+ 0x00401f70 0x00401fa4 2 0x00401fa6 0xffffffffffffffff
+afb+ 0x00401f70 0x00401fa6 14 0x00401fa4 0x00401fb4
+afb+ 0x00401f70 0x00401fb4 2 0x00401f7f 0xffffffffffffffff
+afB 32 @ 0x00401f70
+afc cdecl @ 0x00401f70
+axd 0x4027a0 0x401f74
+axc 0x401fa0 0x401f7d
+axc 0x401f8f 0x401f81
+axC 0x4027a0 0x401f83
+axc 0x401f83 0x401f8d
+axd 0x401f40 0x401f8f
+axC 0x401840 0x401f96
+axc 0x401fa6 0x401fa2
+axd 0x4027a0 0x401fa9
+axc 0x401fa4 0x401fb2
+axc 0x401f7f 0x401fb4
+afS 28 @ 0x401f70
+"f sym.___main 28 0x00401fc0"
+"af+ 0x00401fc0 sym.___main s n"
+afb+ 0x00401fc0 0x00401fc0 9 0x00401fd0 0x00401fc9
+afb+ 0x00401fc0 0x00401fc9 2 0xffffffffffffffff 0xffffffffffffffff
+afb+ 0x00401fc0 0x00401fd0 12 0x00401f70 0xffffffffffffffff
+afB 32 @ 0x00401fc0
+afc cdecl @ 0x00401fc0
+axd 0x405058 0x401fc0
+axc 0x401fd0 0x401fc7
+axd 0x405058 0x401fd0
+axc 0x401f70 0x401fda
+afS 0 @ 0x401fc0
+"f sym.___security_init_cookie 172 0x00401fe0"
+"af+ 0x00401fe0 sym.___security_init_cookie s n"
+afb+ 0x00401fe0 0x00401fe0 35 0x00402012 0x00402003
+afb+ 0x00401fe0 0x00402003 15 0xffffffffffffffff 0xffffffffffffffff
+afb+ 0x00401fe0 0x00402012 86 0x00402080 0x00402068
+afb+ 0x00401fe0 0x00402068 4 0x0040206c 0xffffffffffffffff
+afb+ 0x00401fe0 0x0040206c 19 0xffffffffffffffff 0xffffffffffffffff
+afb+ 0x00401fe0 0x00402080 12 0x0040206c 0xffffffffffffffff
+afB 32 @ 0x00401fe0
+afc cdecl @ 0x00401fe0
+afvs -48 var_30h int32_t @ 0x401fe0
+afvs -44 lpSystemTimeAsFileTime LPFILETIME @ 0x401fe0
+afvs -40 lpPerformanceCount LARGE_INTEGER * @ 0x401fe0
+axd 0x403024 0x401fe7
+axc 0x402012 0x402001
+axd 0x403028 0x402005
+axC 0x40611c 0x402019
+axC 0x40610c 0x40202a
+axC 0x406110 0x402032
+axC 0x406120 0x40203a
+axC 0x40612c 0x402049
+axc 0x402080 0x402066
+axd 0x403024 0x40206c
+axd 0x403028 0x402072
+axc 0x40206c 0x40208a
+afS 68 @ 0x401fe0
+"f sym.___report_gsfailure 144 0x00402090"
+"af+ 0x00402090 sym.___report_gsfailure s n"
+afb+ 0x00402090 0x00402090 144 0x00402120 0xffffffffffffffff
+afB 32 @ 0x00402090
+afc cdecl @ 0x00402090
+afvb -16 var_10h int32_t @ 0x402090
+afvb -12 var_ch int32_t @ 0x402090
+afvb 4 arg_4h int32_t @ 0x402090
+afvb 8 arg_8h int32_t @ 0x402090
+afvs -48 uExitCode UINT @ 0x402090
+axd 0x405380 0x402096
+axd 0x405384 0x4020a6
+axd 0x405144 0x4020b7
+axd 0x405138 0x4020bd
+axd 0x40538c 0x4020c2
+axd 0x40512c 0x4020ca
+axd 0x403024 0x4020cf
+axd 0x403028 0x4020d7
+axC 0x406130 0x4020df
+axd 0x404240 0x4020e8
+axC 0x406140 0x4020ef
+axC 0x406108 0x4020f8
+axC 0x406138 0x402109
+axC 0x402780 0x402112
+afS 112 @ 0x402090
+"f sym.____w64_mingwthr_add_key_dtor 119 0x00402190"
+"af+ 0x00402190 sym.____w64_mingwthr_add_key_dtor s n"
+afb+ 0x00402190 0x00402190 9 0x004021a0 0x00402199
+afb+ 0x00402190 0x00402199 1 0xffffffffffffffff 0xffffffffffffffff
+afb+ 0x00402190 0x004021a0 30 0x00402200 0x004021be
+afb+ 0x00402190 0x004021be 61 0x004021fb 0xffffffffffffffff
+afb+ 0x00402190 0x004021fb 5 0xffffffffffffffff 0xffffffffffffffff
+afb+ 0x00402190 0x00402200 7 0x004021fb 0xffffffffffffffff
+afB 32 @ 0x00402190
+afc cdecl @ 0x00402190
+afvs -24 size size_t @ 0x402190
+afvs 4 arg_4h int32_t @ 0x402190
+afvs 8 arg_8h int32_t @ 0x402190
+axd 0x405404 0x402190
+axc 0x4021a0 0x402197
+axC 0x402788 0x4021b3
+axc 0x402200 0x4021bc
+axd 0x405408 0x4021c2
+axC 0x406104 0x4021d2
+axd 0x405400 0x4021d8
+axd 0x405400 0x4021e0
+axd 0x405408 0x4021e6
+axC 0x406128 0x4021f0
+axc 0x4021fb 0x402205
+afS 36 @ 0x402190
+"f sym._calloc 6 0x00402788"
+"af+ 0x00402788 sym._calloc s n"
+afb+ 0x00402788 0x00402788 6 0xffffffffffffffff 0xffffffffffffffff
+afB 32 @ 0x00402788
+afc cdecl @ 0x00402788
+axc 0x406190 0x402788
+afS 0 @ 0x402788
+"f sym.____w64_mingwthr_remove_key_dtor 157 0x00402210"
+"af+ 0x00402210 sym.____w64_mingwthr_remove_key_dtor s n"
+afb+ 0x00402210 0x00402210 17 0x00402230 0x00402221
+afb+ 0x00402210 0x00402221 7 0xffffffffffffffff 0xffffffffffffffff
+afb+ 0x00402210 0x00402230 26 0x00402261 0x0040224a
+afb+ 0x00402210 0x0040224a 6 0x0040225a 0x00402250
+afb+ 0x00402210 0x00402250 2 0x004022a0 0xffffffffffffffff
+afb+ 0x00402210 0x00402252 6 0x00402280 0x00402258
+afb+ 0x00402210 0x00402258 2 0x0040225a 0xffffffffffffffff
+afb+ 0x00402210 0x0040225a 7 0x00402252 0x00402261
+afb+ 0x00402210 0x00402261 16 0x00402271 0xffffffffffffffff
+afb+ 0x00402210 0x00402271 7 0xffffffffffffffff 0xffffffffffffffff
+afb+ 0x00402210 0x00402280 6 0x00402286 0xffffffffffffffff
+afb+ 0x00402210 0x00402286 26 0x00402271 0xffffffffffffffff
+afb+ 0x00402210 0x004022a0 13 0x00402286 0xffffffffffffffff
+afB 32 @ 0x00402210
+afc cdecl @ 0x00402210
+afvs 4 arg_4h int32_t @ 0x402210
+axd 0x405404 0x402214
+axc 0x402230 0x40221f
+axd 0x405408 0x402230
+axC 0x406104 0x402237
+axd 0x405400 0x40223d
+axc 0x402261 0x402248
+axc 0x40225a 0x40224e
+axc 0x4022a0 0x402250
+axc 0x402280 0x402256
+axc 0x402252 0x40225f
+axd 0x405408 0x402261
+axC 0x406128 0x402268
+axC 0x402790 0x402289
+axd 0x405408 0x40228e
+axC 0x406128 0x402295
+axc 0x402271 0x40229e
+axd 0x405400 0x4022a5
+axc 0x402286 0x4022ab
+afS 36 @ 0x402210
+"f sym._free 6 0x00402790"
+"af+ 0x00402790 sym._free s n"
+afb+ 0x00402790 0x00402790 6 0xffffffffffffffff 0xffffffffffffffff
+afB 32 @ 0x00402790
+afc cdecl @ 0x00402790
+axc 0x40619c 0x402790
+afS 0 @ 0x402790
+"f sym.__ValidateImageBase.part.0 29 0x00402350"
+"af+ 0x00402350 sym.__ValidateImageBase.part.0 s n"
+afb+ 0x00402350 0x00402350 11 0x00402360 0x0040235b
+afb+ 0x00402350 0x0040235b 3 0xffffffffffffffff 0xffffffffffffffff
+afb+ 0x00402350 0x00402360 13 0xffffffffffffffff 0xffffffffffffffff
+afB 32 @ 0x00402350
+afc cdecl @ 0x00402350
+axc 0x402360 0x402359
+afS 0 @ 0x402350
+"f sym.__ValidateImageBase 18 0x00402370"
+"af+ 0x00402370 sym.__ValidateImageBase s n"
+afb+ 0x00402370 0x00402370 11 0x00402380 0x0040237b
+afb+ 0x00402370 0x0040237b 3 0xffffffffffffffff 0xffffffffffffffff
+afb+ 0x00402370 0x00402380 2 0x00402350 0xffffffffffffffff
+afB 32 @ 0x00402370
+afc cdecl @ 0x00402370
+afvs 4 arg_4h int32_t @ 0x402370
+axc 0x402380 0x402379
+axc 0x402350 0x402380
+afS 0 @ 0x402370
+"f sym.__FindPESection 61 0x00402390"
+"af+ 0x00402390 sym.__FindPESection s n"
+afb+ 0x00402390 0x00402390 29 0x004023c8 0x004023ad
+afb+ 0x00402390 0x004023ad 3 0x004023b0 0xffffffffffffffff
+afb+ 0x00402390 0x004023b0 7 0x004023be 0x004023b7
+afb+ 0x00402390 0x004023b7 7 0x004023ca 0x004023be
+afb+ 0x00402390 0x004023be 10 0x004023b0 0x004023c8
+afb+ 0x00402390 0x004023c8 2 0x004023ca 0xffffffffffffffff
+afb+ 0x00402390 0x004023ca 3 0xffffffffffffffff 0xffffffffffffffff
+afB 32 @ 0x00402390
+afc cdecl @ 0x00402390
+afvs 4 arg_4h int32_t @ 0x402390
+afvs 8 arg_8h int32_t @ 0x402390
+axc 0x4023c8 0x4023ab
+axc 0x4023be 0x4023b5
+axc 0x4023ca 0x4023bc
+axc 0x4023b0 0x4023c6
+afS 8 @ 0x402390
+"f sym.__FindPESectionByName 156 0x004023d0"
+"af+ 0x004023d0 sym.__FindPESectionByName s n"
+afb+ 0x004023d0 0x004023d0 26 0x004023f5 0x004023ea
+afb+ 0x004023d0 0x004023ea 11 0x00402400 0x004023f5
+afb+ 0x004023d0 0x004023f5 10 0xffffffffffffffff 0xffffffffffffffff
+afb+ 0x004023d0 0x00402400 14 0x004023f5 0x0040240e
+afb+ 0x004023d0 0x0040240e 30 0x0040243a 0x0040242c
+afb+ 0x004023d0 0x0040242c 2 0x004023f5 0xffffffffffffffff
+afb+ 0x004023d0 0x00402430 10 0x00402460 0x0040243a
+afb+ 0x004023d0 0x0040243a 24 0x00402430 0x00402452
+afb+ 0x004023d0 0x00402452 12 0xffffffffffffffff 0xffffffffffffffff
+afb+ 0x004023d0 0x00402460 12 0xffffffffffffffff 0xffffffffffffffff
+afB 32 @ 0x004023d0
+afc cdecl @ 0x004023d0
+afvs -40 s2 char * @ 0x4023d0
+afvs -36 n size_t @ 0x4023d0
+afvs 4 s char * @ 0x4023d0
+axC 0x402708 0x4023e0
+axc 0x4023f5 0x4023e8
+axc 0x402400 0x4023f3
+axC 0x402350 0x402405
+axc 0x4023f5 0x40240c
+axc 0x40243a 0x40242a
+axc 0x4023f5 0x40242c
+axc 0x402460 0x402438
+axC 0x402798 0x402449
+axc 0x402430 0x402450
+afS 44 @ 0x4023d0
+"f sym.___mingw_GetSectionForAddress 80 0x00402470"
+"af+ 0x00402470 sym.___mingw_GetSectionForAddress s n"
+afb+ 0x00402470 0x00402470 17 0x00402490 0x00402481
+afb+ 0x00402470 0x00402481 7 0xffffffffffffffff 0xffffffffffffffff
+afb+ 0x00402470 0x00402490 14 0x00402481 0x0040249e
+afb+ 0x00402470 0x0040249e 34 0xffffffffffffffff 0xffffffffffffffff
+afB 32 @ 0x00402470
+afc cdecl @ 0x00402470
+afvs -8 var_8h int32_t @ 0x402470
+afvs 4 arg_4h int32_t @ 0x402470
+axc 0x402490 0x40247f
+axC 0x402350 0x402495
+axc 0x402481 0x40249c
+axC 0x402390 0x4024b2
+afS 12 @ 0x402470
+"f sym.___mingw_GetSectionCount 43 0x004024c0"
+"af+ 0x004024c0 sym.___mingw_GetSectionCount s n"
+afb+ 0x004024c0 0x004024c0 13 0x004024d0 0x004024cd
+afb+ 0x004024c0 0x004024cd 2 0xffffffffffffffff 0xffffffffffffffff
+afb+ 0x004024c0 0x004024d0 14 0x004024cd 0x004024de
+afb+ 0x004024c0 0x004024de 13 0xffffffffffffffff 0xffffffffffffffff
+afB 32 @ 0x004024c0
+afc cdecl @ 0x004024c0
+axc 0x4024d0 0x4024cb
+axC 0x402350 0x4024d5
+axc 0x4024cd 0x4024dc
+afS 0 @ 0x4024c0
+"f sym.__FindPESectionExec 119 0x004024f0"
+"af+ 0x004024f0 sym.__FindPESectionExec s n"
+afb+ 0x004024f0 0x004024f0 19 0x00402510 0x00402503
+afb+ 0x004024f0 0x00402503 5 0xffffffffffffffff 0xffffffffffffffff
+afb+ 0x004024f0 0x00402510 14 0x00402503 0x0040251e
+afb+ 0x004024f0 0x0040251e 30 0x00402503 0x0040253c
+afb+ 0x004024f0 0x0040253c 4 0x00402540 0xffffffffffffffff
+afb+ 0x004024f0 0x00402540 6 0x0040254d 0x00402546
+afb+ 0x004024f0 0x00402546 4 0x00402560 0x0040254a
+afb+ 0x004024f0 0x0040254a 3 0x0040254d 0xffffffffffffffff
+afb+ 0x004024f0 0x0040254d 10 0x00402540 0x00402557
+afb+ 0x004024f0 0x00402557 7 0xffffffffffffffff 0xffffffffffffffff
+afb+ 0x004024f0 0x00402560 7 0xffffffffffffffff 0xffffffffffffffff
+afB 32 @ 0x004024f0
+afc cdecl @ 0x004024f0
+afvs 4 arg_4h int32_t @ 0x4024f0
+axc 0x402510 0x402501
+axC 0x402350 0x402515
+axc 0x402503 0x40251c
+axc 0x402503 0x40253a
+axc 0x40254d 0x402544
+axc 0x402560 0x402548
+axc 0x402540 0x402555
+afS 8 @ 0x4024f0
+"f sym.__GetPEImageBase 42 0x00402570"
+"af+ 0x00402570 sym.__GetPEImageBase s n"
+afb+ 0x00402570 0x00402570 14 0x00402582 0x0040257e
+afb+ 0x00402570 0x0040257e 4 0xffffffffffffffff 0xffffffffffffffff
+afb+ 0x00402570 0x00402582 24 0xffffffffffffffff 0xffffffffffffffff
+afB 32 @ 0x00402570
+afc cdecl @ 0x00402570
+axc 0x402582 0x40257c
+axC 0x402350 0x402587
+afS 4 @ 0x402570
+"f sym.__IsNonwritableInCurrentImage 84 0x004025a0"
+"af+ 0x004025a0 sym.__IsNonwritableInCurrentImage s n"
+afb+ 0x004025a0 0x004025a0 13 0x004025b0 0x004025ad
+afb+ 0x004025a0 0x004025ad 1 0xffffffffffffffff 0xffffffffffffffff
+afb+ 0x004025a0 0x004025b0 17 0x004025e6 0x004025c1
+afb+ 0x004025a0 0x004025c1 29 0x004025f0 0x004025de
+afb+ 0x004025a0 0x004025de 8 0x004025e6 0xffffffffffffffff
+afb+ 0x004025a0 0x004025e6 4 0xffffffffffffffff 0xffffffffffffffff
+afb+ 0x004025a0 0x004025f0 4 0x004025e6 0xffffffffffffffff
+afB 32 @ 0x004025a0
+afc cdecl @ 0x004025a0
+afvs -4 var_4h int32_t @ 0x4025a0
+afvs 4 arg_4h int32_t @ 0x4025a0
+axc 0x4025b0 0x4025ab
+axC 0x402350 0x4025b8
+axc 0x4025e6 0x4025bf
+axC 0x402390 0x4025d5
+axc 0x4025f0 0x4025dc
+axc 0x4025e6 0x4025f2
+afS 8 @ 0x4025a0
+"f sym.___mingw_enum_import_library_names 155 0x00402600"
+"af+ 0x00402600 sym.___mingw_enum_import_library_names s n"
+afb+ 0x00402600 0x00402600 23 0x00402620 0x00402617
+afb+ 0x00402600 0x00402617 9 0xffffffffffffffff 0xffffffffffffffff
+afb+ 0x00402600 0x00402620 14 0x00402617 0x0040262e
+afb+ 0x00402600 0x0040262e 15 0x00402617 0x0040263d
+afb+ 0x00402600 0x0040263d 20 0x00402617 0x00402651
+afb+ 0x00402600 0x00402651 10 0x00402666 0x0040265b
+afb+ 0x00402600 0x0040265b 2 0x00402617 0xffffffffffffffff
+afb+ 0x00402600 0x00402660 6 0x00402666 0xffffffffffffffff
+afb+ 0x00402600 0x00402666 7 0x00402674 0x0040266d
+afb+ 0x00402600 0x0040266d 7 0x00402690 0x00402674
+afb+ 0x00402600 0x00402674 4 0x00402660 0x00402678
+afb+ 0x00402600 0x00402678 18 0xffffffffffffffff 0xffffffffffffffff
+afb+ 0x00402600 0x00402690 11 0xffffffffffffffff 0xffffffffffffffff
+afB 32 @ 0x00402600
+afc cdecl @ 0x00402600
+afvs -16 var_10h int32_t @ 0x402600
+afvs 4 arg_4h int32_t @ 0x402600
+axc 0x402620 0x402615
+axC 0x402350 0x402625
+axc 0x402617 0x40262c
+axc 0x402617 0x40263b
+axC 0x402390 0x402648
+axc 0x402617 0x40264f
+axc 0x402666 0x402659
+axc 0x402617 0x40265b
+axc 0x402674 0x40266b
+axc 0x402690 0x402672
+axc 0x402660 0x402676
+afS 20 @ 0x402600
+"f sym._mingw_get_invalid_parameter_handler 6 0x004026e0"
+"af+ 0x004026e0 sym._mingw_get_invalid_parameter_handler s n"
+afb+ 0x004026e0 0x004026e0 6 0xffffffffffffffff 0xffffffffffffffff
+afB 32 @ 0x004026e0
+afc cdecl @ 0x004026e0
+axd 0x405424 0x4026e0
+afS 0 @ 0x4026e0
+"f sym._mingw_set_invalid_parameter_handler 11 0x004026f0"
+"af+ 0x004026f0 sym._mingw_set_invalid_parameter_handler s n"
+afb+ 0x004026f0 0x004026f0 11 0xffffffffffffffff 0xffffffffffffffff
+afB 32 @ 0x004026f0
+afc cdecl @ 0x004026f0
+afvs 4 arg_4h int32_t @ 0x4026f0
+afS 0 @ 0x4026f0
+"f sym.__cexit 6 0x00402718"
+"af+ 0x00402718 sym.__cexit s n"
+afb+ 0x00402718 0x00402718 6 0xffffffffffffffff 0xffffffffffffffff
+afB 32 @ 0x00402718
+afc cdecl @ 0x00402718
+axc 0x406170 0x402718
+afS 0 @ 0x402718
+"f sym._fwrite 6 0x00402770"
+"af+ 0x00402770 sym._fwrite s n"
+afb+ 0x00402770 0x00402770 6 0xffffffffffffffff 0xffffffffffffffff
+afB 32 @ 0x00402770
+afc cdecl @ 0x00402770
+axc 0x4061a0 0x402770
+afS 0 @ 0x402770
+"f sym._memcpy 6 0x00402710"
+"af+ 0x00402710 sym._memcpy s n"
+afb+ 0x00402710 0x00402710 6 0xffffffffffffffff 0xffffffffffffffff
+afB 32 @ 0x00402710
+afc cdecl @ 0x00402710
+axc 0x4061a8 0x402710
+afS 0 @ 0x402710
+"f sym.___set_app_type 6 0x004026cc"
+"af+ 0x004026cc sym.___set_app_type s n"
+afb+ 0x004026cc 0x004026cc 6 0xffffffffffffffff 0xffffffffffffffff
+afB 32 @ 0x004026cc
+afc cdecl @ 0x004026cc
+axc 0x406160 0x4026cc
+afS 0 @ 0x4026cc
+"f sym.__initterm 6 0x00402728"
+"af+ 0x00402728 sym.__initterm s n"
+afb+ 0x00402728 0x00402728 6 0xffffffffffffffff 0xffffffffffffffff
+afB 32 @ 0x00402728
+afc cdecl @ 0x00402728
+axc 0x406178 0x402728
+afS 0 @ 0x402728
+"f sym._signal 6 0x00402758"
+"af+ 0x00402758 sym._signal s n"
+afb+ 0x00402758 0x00402758 6 0xffffffffffffffff 0xffffffffffffffff
+afB 32 @ 0x00402758
+afc cdecl @ 0x00402758
+axc 0x4061b0 0x402758
+afS 0 @ 0x402758
+"f sym._abort 6 0x00402780"
+"af+ 0x00402780 sym._abort s n"
+afb+ 0x00402780 0x00402780 6 0xffffffffffffffff 0xffffffffffffffff
+afB 32 @ 0x00402780
+afc cdecl @ 0x00402780
+axc 0x40618c 0x402780
+afS 0 @ 0x402780
+"f sym.__amsg_exit 6 0x00402720"
+"af+ 0x00402720 sym.__amsg_exit s n"
+afb+ 0x00402720 0x00402720 6 0xffffffffffffffff 0xffffffffffffffff
+afB 32 @ 0x00402720
+afc cdecl @ 0x00402720
+axc 0x40616c 0x402720
+afS 0 @ 0x402720
+"f sym._strncmp 6 0x00402798"
+"af+ 0x00402798 sym._strncmp s n"
+afb+ 0x00402798 0x00402798 6 0xffffffffffffffff 0xffffffffffffffff
+afB 32 @ 0x00402798
+afc cdecl @ 0x00402798
+axc 0x4061b8 0x402798
+afS 0 @ 0x402798
+"f sym._strlen 6 0x00402708"
+"af+ 0x00402708 sym._strlen s n"
+afb+ 0x00402708 0x00402708 6 0xffffffffffffffff 0xffffffffffffffff
+afB 32 @ 0x00402708
+afc cdecl @ 0x00402708
+axc 0x4061b4 0x402708
+afS 0 @ 0x402708
+"f sym._exit 6 0x00402730"
+"af+ 0x00402730 sym._exit s n"
+afb+ 0x00402730 0x00402730 6 0xffffffffffffffff 0xffffffffffffffff
+afB 32 @ 0x00402730
+afc cdecl @ 0x00402730
+axc 0x406194 0x402730
+afS 0 @ 0x402730
+"f sym._vfprintf 6 0x00402778"
+"af+ 0x00402778 sym._vfprintf s n"
+afb+ 0x00402778 0x00402778 6 0xffffffffffffffff 0xffffffffffffffff
+afB 32 @ 0x00402778
+afc cdecl @ 0x00402778
+axc 0x4061bc 0x402778
+afS 0 @ 0x402778
+"f fcn.004026a0 42 0x004026a0"
+"af+ 0x004026a0 fcn.004026a0 f n"
+afb+ 0x004026a0 0x004026a0 13 0x004026c2 0x004026ad
+afb+ 0x004026a0 0x004026ad 21 0x004026ad 0x004026c2
+afb+ 0x004026a0 0x004026c2 8 0xffffffffffffffff 0xffffffffffffffff
+afB 32 @ 0x004026a0
+afc cdecl @ 0x004026a0
+afvs 4 arg_4h int32_t @ 0x4026a0
+axc 0x4026c2 0x4026ab
+axc 0x4026ad 0x4026c0
+afS 8 @ 0x4026a0
+"f sym.__pei386_runtime_relocator 0 0x00401c70"
+"af+ 0x00401c70 sym.__pei386_runtime_relocator f n"
+afB 32 @ 0x00401c70
+afc cdecl @ 0x00401c70
+afvb -52 var_34h LPVOID @ 0x401b30
+afvs -188 var_bch SIZE_T @ 0x401b30
+afvs -184 var_b8h DWORD @ 0x401b30
+afvs -180 var_b4h PDWORD * @ 0x401b30
+afvs -176 var_b0h PMEMORY_BASIC_INFORMATION * @ 0x401b30
+afvs -172 var_ach SIZE_T * @ 0x401b30
+afvs -112 var_70h DWORD @ 0x401b30
+afvs -96 dwSize SIZE_T @ 0x401b30
+afvs -92 flNewProtect DWORD @ 0x401b30
+afvs -88 lpflOldProtect PDWORD @ 0x401b30
+afvs -84 lpBuffer PMEMORY_BASIC_INFORMATION * @ 0x401b30
+afvs -80 lpAddress LPVOID @ 0x401b30
+afS 0 @ 0x401c70
+"f sym.__fpreset 0 0x00401f30"
+"af+ 0x00401f30 sym.__fpreset f n"
+afB 32 @ 0x00401f30
+afc cdecl @ 0x00401f30
+afvb -52 var_34h LPVOID @ 0x401b30
+afvs -188 var_bch SIZE_T @ 0x401b30
+afvs -184 var_b8h DWORD @ 0x401b30
+afvs -180 var_b4h PDWORD * @ 0x401b30
+afvs -176 var_b0h PMEMORY_BASIC_INFORMATION * @ 0x401b30
+afvs -172 var_ach SIZE_T * @ 0x401b30
+afvs -112 var_70h DWORD @ 0x401b30
+afvs -96 dwSize SIZE_T @ 0x401b30
+afvs -92 flNewProtect DWORD @ 0x401b30
+afvs -88 lpflOldProtect PDWORD @ 0x401b30
+afvs -84 lpBuffer PMEMORY_BASIC_INFORMATION * @ 0x401b30
+afvs -80 lpAddress LPVOID @ 0x401b30
+afS 0 @ 0x401f30
+"f sym._mark_section_writable 1027 0x00401b30"
+"af+ 0x00401b30 sym._mark_section_writable f n"
+afb+ 0x00401b30 0x00401b30 20 0x00401c1d 0x00401b44
+afb+ 0x00401b30 0x00401b44 12 0x00401b50 0xffffffffffffffff
+afb+ 0x00401b30 0x00401b50 6 0x00401b64 0x00401b56
+afb+ 0x00401b30 0x00401b56 14 0x00401c16 0x00401b64
+afb+ 0x00401b30 0x00401b64 10 0x00401b50 0x00401b6e
+afb+ 0x00401b30 0x00401b6e 20 0x00401c5a 0x00401b82
+afb+ 0x00401b30 0x00401b82 75 0x00401c3a 0x00401bcd
+afb+ 0x00401b30 0x00401bcd 12 0x00401c0f 0x00401bd9
+afb+ 0x00401b30 0x00401bd9 8 0x00401c0f 0x00401be1
+afb+ 0x00401b30 0x00401be1 46 0x00401c24 0x00401c0f
+afb+ 0x00401b30 0x00401c0f 7 0x00401c16 0xffffffffffffffff
+afb+ 0x00401b30 0x00401c16 7 0xffffffffffffffff 0xffffffffffffffff
+afb+ 0x00401b30 0x00401c1d 7 0x00401b6e 0xffffffffffffffff
+afb+ 0x00401b30 0x00401c24 22 0x00401c3a 0xffffffffffffffff
+afb+ 0x00401b30 0x00401c3a 32 0x00401c5a 0xffffffffffffffff
+afb+ 0x00401b30 0x00401c5a 22 0x00401c70 0xffffffffffffffff
+afb+ 0x00401b30 0x00401c70 9 0x00401c80 0x00401c79
+afb+ 0x00401b30 0x00401c79 1 0xffffffffffffffff 0xffffffffffffffff
+afb+ 0x00401b30 0x00401c80 85 0x00401d70 0x00401cd5
+afb+ 0x00401b30 0x00401cd5 9 0x00401e33 0x00401cde
+afb+ 0x00401b30 0x00401cde 13 0x00401d78 0x00401ceb
+afb+ 0x00401b30 0x00401ceb 13 0x00401d78 0x00401cf8
+afb+ 0x00401b30 0x00401cf8 19 0x00401e38 0x00401d0b
+afb+ 0x00401b30 0x00401d0b 5 0x00401d10 0xffffffffffffffff
+afb+ 0x00401b30 0x00401d10 12 0x00401f17 0x00401d1c
+afb+ 0x00401b30 0x00401d1c 11 0x00401d70 0x00401d27
+afb+ 0x00401b30 0x00401d27 33 0x00401e52 0x00401d48
+afb+ 0x00401b30 0x00401d48 9 0x00401ed6 0x00401d51
+afb+ 0x00401b30 0x00401d51 9 0x00401ea7 0x00401d5a
+afb+ 0x00401b30 0x00401d5a 22 0x00401d70 0xffffffffffffffff
+afb+ 0x00401b30 0x00401d70 8 0xffffffffffffffff 0xffffffffffffffff
+afb+ 0x00401b30 0x00401d78 5 0x00401d7d 0xffffffffffffffff
+afb+ 0x00401b30 0x00401d7d 8 0x00401d70 0x00401d85
+afb+ 0x00401b30 0x00401d85 45 0x00401d85 0x00401db2
+afb+ 0x00401b30 0x00401db2 11 0x00401dcb 0x00401dbd
+afb+ 0x00401b30 0x00401dbd 2 0x00401d70 0xffffffffffffffff
+afb+ 0x00401b30 0x00401dc0 11 0x00401d70 0x00401dcb
+afb+ 0x00401b30 0x00401dcb 23 0x00401dc0 0x00401de2
+afb+ 0x00401b30 0x00401de2 38 0x00401ef2 0x00401e08
+afb+ 0x00401b30 0x00401e08 43 0x00401dc0 0xffffffffffffffff
+afb+ 0x00401b30 0x00401e33 5 0x00401e38 0xffffffffffffffff
+afb+ 0x00401b30 0x00401e38 10 0x00401d7d 0x00401e42
+afb+ 0x00401b30 0x00401e42 11 0x00401d10 0x00401e4d
+afb+ 0x00401b30 0x00401e4d 5 0x00401d7d 0xffffffffffffffff
+afb+ 0x00401b30 0x00401e52 65 0x00401e93 0xffffffffffffffff
+afb+ 0x00401b30 0x00401e93 15 0x00401d27 0x00401ea2
+afb+ 0x00401b30 0x00401ea2 5 0x00401db2 0xffffffffffffffff
+afb+ 0x00401b30 0x00401ea7 47 0x00401e93 0xffffffffffffffff
+afb+ 0x00401b30 0x00401ed6 28 0x00401e93 0xffffffffffffffff
+afb+ 0x00401b30 0x00401ef2 37 0x00401f17 0xffffffffffffffff
+afb+ 0x00401b30 0x00401f17 25 0x00401f30 0xffffffffffffffff
+afb+ 0x00401b30 0x00401f30 3 0xffffffffffffffff 0xffffffffffffffff
+afB 32 @ 0x00401b30
+afc cdecl @ 0x00401b30
+afvb -52 var_34h LPVOID @ 0x401b30
+afvs -188 var_bch SIZE_T @ 0x401b30
+afvs -184 var_b8h DWORD @ 0x401b30
+afvs -180 var_b4h PDWORD * @ 0x401b30
+afvs -176 var_b0h PMEMORY_BASIC_INFORMATION * @ 0x401b30
+afvs -172 var_ach SIZE_T * @ 0x401b30
+afvs -112 var_70h DWORD @ 0x401b30
+afvs -96 dwSize SIZE_T @ 0x401b30
+afvs -92 flNewProtect DWORD @ 0x401b30
+afvs -88 lpflOldProtect PDWORD @ 0x401b30
+afvs -84 lpBuffer PMEMORY_BASIC_INFORMATION * @ 0x401b30
+afvs -80 lpAddress LPVOID @ 0x401b30
+axd 0x405050 0x401b36
+axc 0x401c1d 0x401b3e
+axd 0x405054 0x401b44
+axc 0x401b64 0x401b54
+axc 0x401c16 0x401b5e
+axc 0x401b50 0x401b6c
+axC 0x402470 0x401b73
+axc 0x401c5a 0x401b7c
+axd 0x405054 0x401b85
+axC 0x402570 0x401b99
+axd 0x405054 0x401bb4
+axC 0x406148 0x401bc0
+axc 0x401c3a 0x401bcb
+axc 0x401c0f 0x401bd7
+axc 0x401c0f 0x401bdf
+axd 0x405054 0x401be5
+axC 0x406144 0x401c02
+axc 0x401c24 0x401c0d
+axd 0x405050 0x401c0f
+axc 0x401b6e 0x401c1f
+axC 0x406114 0x401c24
+axd 0x4041b8 0x401c2a
+axC 0x401ad0 0x401c35
+axd 0x405054 0x401c3a
+axd 0x404184 0x401c4a
+axC 0x401ad0 0x401c55
+axd 0x404164 0x401c5e
+axC 0x401ad0 0x401c65
+axd 0x40504c 0x401c70
+axc 0x401c80 0x401c77
+axd 0x40504c 0x401c89
+axC 0x4024c0 0x401c93
+axC 0x4026a0 0x401ca5
+axd 0x405050 0x401caa
+axd 0x405054 0x401cbd
+axd 0x40446c 0x401cc2
+axd 0x40446c 0x401cc7
+axc 0x401d70 0x401ccf
+axc 0x401e33 0x401cd8
+axd 0x40446c 0x401cde
+axc 0x401d78 0x401ce5
+axd 0x404470 0x401ceb
+axc 0x401d78 0x401cf2
+axd 0x404474 0x401cf8
+axd 0x404478 0x401cfe
+axc 0x401e38 0x401d05
+axd 0x40446c 0x401d0b
+axc 0x401f17 0x401d16
+axd 0x40446c 0x401d1f
+axc 0x401d70 0x401d25
+axc 0x401e52 0x401d42
+axc 0x401ed6 0x401d4b
+axc 0x401ea7 0x401d54
+axd 0x404214 0x401d5e
+axC 0x401ad0 0x401d65
+axd 0x40446c 0x401d78
+axd 0x40446c 0x401d7d
+axc 0x401d70 0x401d83
+axC 0x401b30 0x401d9c
+axd 0x40446c 0x401da4
+axc 0x401d85 0x401db0
+axd 0x405050 0x401db2
+axc 0x401dcb 0x401dbb
+axc 0x401d70 0x401dbd
+axd 0x405050 0x401dc3
+axc 0x401d70 0x401dc9
+axd 0x405054 0x401dce
+axc 0x401dc0 0x401de0
+axC 0x406148 0x401df7
+axc 0x401ef2 0x401e02
+axd 0x405054 0x401e0f
+axC 0x406144 0x401e28
+axc 0x401dc0 0x401e31
+axd 0x40446c 0x401e33
+axc 0x401d7d 0x401e3c
+axc 0x401d10 0x401e47
+axc 0x401d7d 0x401e4d
+axC 0x401b30 0x401e80
+axd 0x40446c 0x401e96
+axc 0x401d27 0x401e9c
+axc 0x401db2 0x401ea2
+axC 0x401b30 0x401ec9
+axc 0x401e93 0x401ed4
+axC 0x401b30 0x401ee9
+axc 0x401e93 0x401ef0
+axd 0x405054 0x401ef2
+axd 0x404184 0x401f07
+axC 0x401ad0 0x401f12
+axd 0x4041e0 0x401f1b
+axC 0x401ad0 0x401f22
+afS 0 @ 0x401b30
+"f sym.___mingwthr_run_key_dtors.part.0 109 0x00402120"
+"af+ 0x00402120 sym.___mingwthr_run_key_dtors.part.0 f n"
+afb+ 0x00402120 0x00402120 45 0x00402175 0x0040214d
+afb+ 0x00402120 0x0040214d 3 0x00402150 0xffffffffffffffff
+afb+ 0x00402120 0x00402150 18 0x0040216e 0x00402162
+afb+ 0x00402120 0x00402162 4 0x0040216e 0x00402166
+afb+ 0x00402120 0x00402166 8 0x0040216e 0xffffffffffffffff
+afb+ 0x00402120 0x0040216e 7 0x00402150 0x00402175
+afb+ 0x00402120 0x00402175 24 0xffffffffffffffff 0xffffffffffffffff
+afB 32 @ 0x00402120
+afc cdecl @ 0x00402120
+axd 0x405408 0x402127
+axC 0x406104 0x40212e
+axd 0x405400 0x402134
+axd 0x40613c 0x40213d
+axd 0x406114 0x402143
+axc 0x402175 0x40214b
+axc 0x40216e 0x402160
+axc 0x40216e 0x402164
+axc 0x402150 0x402173
+axd 0x405408 0x402175
+axC 0x406128 0x40217c
+afS 0 @ 0x402120
+
+# flags
+# meta
+CCu base64:WzAwXSAtci14IHNlY3Rpb24gc2l6ZSA4MTkyIG5hbWVkIC50ZXh0 @ 0x00401000
+CCu base64:WzAxXSAtcnctIHNlY3Rpb24gc2l6ZSA0MDk2IG5hbWVkIC5kYXRh @ 0x00403000
+CCu base64:WzAyXSAtci0tIHNlY3Rpb24gc2l6ZSA0MDk2IG5hbWVkIC5yZGF0YQ== @ 0x00404000
+CCu base64:WzAzXSAtcnctIHNlY3Rpb24gc2l6ZSA0MDk2IG5hbWVkIC5ic3M= @ 0x00405000
+CCu base64:WzA0XSAtcnctIHNlY3Rpb24gc2l6ZSA0MDk2IG5hbWVkIC5pZGF0YQ== @ 0x00406000
+CCu base64:WzA1XSAtcnctIHNlY3Rpb24gc2l6ZSA0MDk2IG5hbWVkIC5DUlQ= @ 0x00407000
+CCu base64:WzA2XSAtcnctIHNlY3Rpb24gc2l6ZSA0MDk2IG5hbWVkIC50bHM= @ 0x00408000
+CCu base64:WzA3XSAtci0tIHNlY3Rpb24gc2l6ZSA0MDk2IG5hbWVkIC5kZWJ1Z19hcmFuZ2Vz @ 0x00409000
+CCu base64:WzA4XSAtci0tIHNlY3Rpb24gc2l6ZSA0NTA1NiBuYW1lZCAuZGVidWdfaW5mbw== @ 0x0040a000
+CCu base64:WzA5XSAtci0tIHNlY3Rpb24gc2l6ZSA4MTkyIG5hbWVkIC5kZWJ1Z19hYmJyZXY= @ 0x00415000
+CCu base64:WzEwXSAtci0tIHNlY3Rpb24gc2l6ZSA4MTkyIG5hbWVkIC5kZWJ1Z19saW5l @ 0x00417000
+CCu base64:WzExXSAtci0tIHNlY3Rpb24gc2l6ZSA0MDk2IG5hbWVkIC5kZWJ1Z19mcmFtZQ== @ 0x00419000
+CCu base64:WzEyXSAtci0tIHNlY3Rpb24gc2l6ZSA0MDk2IG5hbWVkIC5kZWJ1Z19zdHI= @ 0x0041a000
+CCu base64:WzEzXSAtci0tIHNlY3Rpb24gc2l6ZSA0MDk2IG5hbWVkIC5kZWJ1Z19sb2M= @ 0x0041b000
+CCu base64:WzE0XSAtci0tIHNlY3Rpb24gc2l6ZSA0MDk2IG5hbWVkIC5kZWJ1Z19yYW5nZXM= @ 0x0041c000
+Cd 4 @ 0x00406100
+Cd 4 @ 0x00406104
+Cd 4 @ 0x00406108
+Cd 4 @ 0x0040610c
+Cd 4 @ 0x00406110
+Cd 4 @ 0x00406114
+Cd 4 @ 0x00406118
+Cd 4 @ 0x0040611c
+Cd 4 @ 0x00406120
+Cd 4 @ 0x00406124
+Cd 4 @ 0x00406128
+Cd 4 @ 0x0040612c
+Cd 4 @ 0x00406130
+Cd 4 @ 0x00406134
+Cd 4 @ 0x00406138
+Cd 4 @ 0x0040613c
+Cd 4 @ 0x00406140
+Cd 4 @ 0x00406144
+Cd 4 @ 0x00406148
+Cd 4 @ 0x00406150
+Cd 4 @ 0x00406154
+Cd 4 @ 0x00406158
+Cd 4 @ 0x0040615c
+Cd 4 @ 0x00406160
+Cd 4 @ 0x00406164
+Cd 4 @ 0x00406168
+Cd 4 @ 0x0040616c
+Cd 4 @ 0x00406170
+Cd 4 @ 0x00406174
+Cd 4 @ 0x00406178
+Cd 4 @ 0x0040617c
+Cd 4 @ 0x00406180
+Cd 4 @ 0x00406184
+Cd 4 @ 0x00406188
+Cd 4 @ 0x0040618c
+Cd 4 @ 0x00406190
+Cd 4 @ 0x00406194
+Cd 4 @ 0x00406198
+Cd 4 @ 0x0040619c
+Cd 4 @ 0x004061a0
+Cd 4 @ 0x004061a4
+Cd 4 @ 0x004061a8
+Cd 4 @ 0x004061ac
+Cd 4 @ 0x004061b0
+Cd 4 @ 0x004061b4
+Cd 4 @ 0x004061b8
+Cd 4 @ 0x004061bc
+Cs 11 @ 0x00404003 # try harder
+Cs 14 @ 0x00404014 # Unknown error
+Cs 43 @ 0x00404024 # _matherr(): %s in %s(%g, %g)  (retval=%g)\n
+Cs 31 @ 0x00404050 # Argument domain error (DOMAIN)
+Cs 28 @ 0x0040406f # Argument singularity (SIGN)
+Cs 32 @ 0x0040408c # Overflow range error (OVERFLOW)
+Cs 54 @ 0x004040ac # The result is too small to be represented (UNDERFLOW)
+Cs 35 @ 0x004040e4 # Total loss of significance (TLOSS)
+Cs 37 @ 0x00404108 # Partial loss of significance (PLOSS)
+Cs 28 @ 0x00404148 # Mingw-w64 runtime failure:\n
+Cs 32 @ 0x00404164 # Address %p has no image-section
+Cs 49 @ 0x00404184 #   VirtualQuery failed for %d bytes at address %p
+Cs 39 @ 0x004041b8 #   VirtualProtect failed with code 0x%x
+Cs 50 @ 0x004041e0 #   Unknown pseudo relocation protocol version %d.\n
+Cs 42 @ 0x00404214 #   Unknown pseudo relocation bit size %d.\n
+Cs 17 @ 0x00404248 # GCC: (GNU) 4.9.2
+Cs 17 @ 0x0040425c # GCC: (GNU) 4.9.2
+Cs 21 @ 0x00404270 # GCC: (tdm64-1) 4.9.2
+Cs 17 @ 0x00404288 # GCC: (GNU) 4.9.2
+Cs 17 @ 0x0040429c # GCC: (GNU) 4.9.2
+Cs 17 @ 0x004042b0 # GCC: (GNU) 4.9.2
+Cs 17 @ 0x004042c4 # GCC: (GNU) 4.9.2
+Cs 17 @ 0x004042d8 # GCC: (GNU) 4.9.2
+Cs 17 @ 0x004042ec # GCC: (GNU) 4.9.2
+Cs 17 @ 0x00404300 # GCC: (GNU) 4.9.2
+Cs 17 @ 0x00404314 # GCC: (GNU) 4.9.2
+Cs 17 @ 0x00404328 # GCC: (GNU) 4.9.2
+Cs 17 @ 0x0040433c # GCC: (GNU) 4.9.2
+Cs 17 @ 0x00404350 # GCC: (GNU) 4.9.2
+Cs 17 @ 0x00404364 # GCC: (GNU) 4.9.2
+Cs 17 @ 0x00404378 # GCC: (GNU) 4.9.2
+Cs 17 @ 0x0040438c # GCC: (GNU) 4.9.2
+Cs 17 @ 0x004043a0 # GCC: (GNU) 4.9.2
+Cs 17 @ 0x004043b4 # GCC: (GNU) 4.9.2
+Cs 17 @ 0x004043c8 # GCC: (GNU) 4.9.2
+Cs 17 @ 0x004043dc # GCC: (GNU) 4.9.2
+Cs 17 @ 0x004043f0 # GCC: (GNU) 4.9.2
+Cs 17 @ 0x00404404 # GCC: (GNU) 4.9.2
+Cs 21 @ 0x00404418 # GCC: (tdm64-1) 4.9.2
+Cs 17 @ 0x00404430 # GCC: (GNU) 4.9.2
+Cs 17 @ 0x00404444 # GCC: (GNU) 4.9.2
+Cs 17 @ 0x00404458 # GCC: (GNU) 4.9.2
+Ct int32_t arg_4h @ 0x00401062
+Ct int32_t arg_4h @ 0x00401100
+Ct LPTOP_LEVEL_EXCEPTION_FILTER lpTopLevelExceptionFilter @ 0x0040128b
+Ct int32_t arg_4h @ 0x004012a0
+Ct size_t size @ 0x00401347
+Ct const char *s @ 0x00401367
+Ct size_t size @ 0x00401372
+Ct size_t n @ 0x00401386
+Ct void *s1 @ 0x0040138a
+Ct const void *s2 @ 0x0040138d
+Ct char **envp @ 0x004013c8
+Ct char **argv @ 0x004013d1
+Ct int argc @ 0x004013da
+Ct LPSTARTUPINFOA lpStartupInfo @ 0x00401470
+Ct size_t size @ 0x00401506
+Ct const char *format @ 0x0040161e
+Ct const char *format @ 0x00401653
+Ct int32_t arg_8h @ 0x004016a0
+Ct void *func @ 0x0040188b
+Ct int sig @ 0x00401893
+Ct void *func @ 0x004018f0
+Ct int sig @ 0x004018f8
+Ct void *func @ 0x00401930
+Ct int sig @ 0x00401938
+Ct void *func @ 0x00401949
+Ct int sig @ 0x00401951
+Ct void *func @ 0x0040196f
+Ct int sig @ 0x00401977
+Ct void *func @ 0x004019a0
+Ct int sig @ 0x004019a8
+Ct void *func @ 0x004019c0
+Ct int sig @ 0x004019c8
+Ct void *func @ 0x004019e0
+Ct int sig @ 0x004019e8
+Ct const char *format @ 0x00401aa9
+Ct FILE *stream @ 0x00401abd
+Ct size_t nitems @ 0x00401ad9
+Ct size_t size @ 0x00401ae1
+Ct const void *ptr @ 0x00401aed
+Ct FILE *stream @ 0x00401af7
+Ct va_list ap @ 0x00401b04
+Ct const char *format @ 0x00401b08
+Ct FILE *stream @ 0x00401b14
+Ct SIZE_T dwLength @ 0x00401ba8
+Ct PMEMORY_BASIC_INFORMATION lpBuffer @ 0x00401bb0
+Ct LPCVOID lpAddress @ 0x00401bbd
+Ct DWORD flNewProtect @ 0x00401beb
+Ct SIZE_T dwSize @ 0x00401bf3
+Ct PDWORD lpflOldProtect @ 0x00401bfb
+Ct LPVOID lpAddress @ 0x00401bff
+Ct SIZE_T dwLength @ 0x00401de5
+Ct PMEMORY_BASIC_INFORMATION lpBuffer @ 0x00401ded
+Ct LPCVOID lpAddress @ 0x00401df4
+Ct PDWORD lpflOldProtect @ 0x00401e0b
+Ct DWORD flNewProtect @ 0x00401e17
+Ct SIZE_T dwSize @ 0x00401e1e
+Ct LPVOID lpAddress @ 0x00401e25
+Ct LPFILETIME lpSystemTimeAsFileTime @ 0x00402016
+Ct LARGE_INTEGER *lpPerformanceCount @ 0x00402046
+Ct LPTOP_LEVEL_EXCEPTION_FILTER lpTopLevelExceptionFilter @ 0x004020b0
+Ct struct _EXCEPTION_POINTERS *ExceptionInfo @ 0x004020e8
+Ct UINT uExitCode @ 0x004020fe
+Ct HANDLE hProcess @ 0x00402106
+Ct LPCRITICAL_SECTION lpCriticalSection @ 0x00402127
+Ct LPCRITICAL_SECTION lpCriticalSection @ 0x00402175
+Ct size_t size @ 0x004021a4
+Ct size_t nmeb @ 0x004021ac
+Ct LPCRITICAL_SECTION lpCriticalSection @ 0x004021c2
+Ct LPCRITICAL_SECTION lpCriticalSection @ 0x004021e6
+Ct LPCRITICAL_SECTION lpCriticalSection @ 0x00402230
+Ct LPCRITICAL_SECTION lpCriticalSection @ 0x00402261
+Ct void *ptr @ 0x00402286
+Ct LPCRITICAL_SECTION lpCriticalSection @ 0x0040228e
+Ct LPCRITICAL_SECTION lpCriticalSection @ 0x004022f2
+Ct LPCRITICAL_SECTION lpCriticalSection @ 0x00402320
+Ct const char *s @ 0x004023dd
+Ct size_t n @ 0x0040243a
+Ct const char *s2 @ 0x00402442
+Ct const char *s1 @ 0x00402446
+# xrefs
+axd 0x405028 0x40101e
+axd 0x405024 0x401028
+axd 0x405020 0x401032
+axd 0x405030 0x40103c
+axc 0x4010b0 0x401046
+axd 0x405008 0x401048
+axd 0x405034 0x40104d
+axc 0x4010a0 0x401054
+axC 0x4026cc 0x40105d
+axC 0x401770 0x401069
+axd 0x405038 0x40106e
+axd 0x405430 0x401074
+axd 0x405434 0x401079
+axd 0x406174 0x40107e
+axC 0x401a00 0x401085
+axd 0x403018 0x40108a
+axc 0x401100 0x401091
+axC 0x4026cc 0x4010a7
+axc 0x401062 0x4010ac
+axc 0x401048 0x4010c6
+axc 0x401112 0x4010d1
+axc 0x401048 0x4010d8
+axc 0x401048 0x4010e5
+axc 0x401048 0x4010f8
+axd 0x401a70 0x401100
+axC 0x401a60 0x401107
+axc 0x401048 0x401116
+axc 0x401048 0x401129
+axd 0x40503c 0x401133
+axd 0x405000 0x401138
+axd 0x405014 0x401140
+axd 0x405018 0x401148
+axd 0x40501c 0x401150
+axd 0x405000 0x401157
+axd 0x405040 0x40115c
+axC 0x4026d4 0x401165
+axd 0x405010 0x40116a
+axC 0x4026a0 0x401199
+axd 0x405034 0x4011e1
+axc 0x401470 0x4011e9
+axd 0x406134 0x4011fa
+axc 0x401216 0x401200
+axc 0x401411 0x401204
+axc 0x401202 0x401222
+axd 0x40543c 0x401224
+axc 0x401424 0x40122e
+axd 0x40543c 0x401234
+axc 0x401481 0x40123b
+axd 0x405004 0x401241
+axd 0x40543c 0x40124b
+axc 0x40143e 0x401253
+axc 0x401464 0x40125b
+axd 0x404010 0x401261
+axc 0x401286 0x401268
+axC 0x401c70 0x401286
+axd 0x401860 0x40128b
+axC 0x406130 0x401292
+axd 0x405044 0x40129b
+axd 0x401000 0x4012a0
+axC 0x4026f0 0x4012a7
+axC 0x401f30 0x4012ac
+axd 0x406168 0x4012b1
+axd 0x40542c 0x4012b6
+axc 0x401314 0x4012c4
+axc 0x4012e1 0x4012c8
+axc 0x40130f 0x4012d2
+axc 0x401304 0x4012d7
+axc 0x4012d0 0x4012e7
+axc 0x4012de 0x4012f4
+axc 0x40130f 0x401302
+axc 0x401300 0x40130d
+axd 0x405428 0x40130f
+axd 0x405034 0x401314
+axc 0x401333 0x40131c
+axd 0x403000 0x40132e
+axd 0x40501c 0x401333
+axC 0x402700 0x40134a
+axd 0x405018 0x401354
+axc 0x4014a4 0x40135a
+axC 0x402708 0x40136a
+axC 0x402700 0x401375
+axC 0x402710 0x401391
+axc 0x401364 0x401399
+axd 0x405018 0x4013ab
+axC 0x401fc0 0x4013b1
+axd 0x406158 0x4013b6
+axd 0x405014 0x4013bb
+axd 0x405014 0x4013c3
+axd 0x405018 0x4013cc
+axd 0x40501c 0x4013d5
+axC 0x40162c 0x4013dd
+axd 0x405008 0x4013e2
+axd 0x40500c 0x4013e8
+axc 0x4014ab 0x4013ef
+axd 0x405004 0x4013f5
+axc 0x401409 0x4013fd
+axC 0x402718 0x4013ff
+axd 0x40500c 0x401404
+axd 0x40543c 0x401411
+axc 0x401234 0x40141e
+axC 0x402720 0x40142b
+axd 0x40543c 0x401430
+axc 0x401259 0x401438
+axd 0x407008 0x40143e
+axd 0x407000 0x401446
+axC 0x402728 0x40144d
+axd 0x40543c 0x401454
+axc 0x401261 0x40145e
+axc 0x401261 0x40146a
+axC 0x406118 0x401473
+axc 0x4011ef 0x40147c
+axd 0x40543c 0x401481
+axd 0x407018 0x40148b
+axd 0x40700c 0x401493
+axC 0x402728 0x40149a
+axc 0x40124b 0x40149f
+axc 0x4013a1 0x4014a6
+axC 0x402730 0x4014ae
+axd 0x405034 0x4014c3
+axC 0x401fe0 0x4014cd
+axc 0x401180 0x4014d5
+axd 0x405034 0x4014e3
+axC 0x401fe0 0x4014ed
+axc 0x401180 0x4014f5
+axC 0x402700 0x40150d
+axd 0x404000 0x40161e
+axC 0x402738 0x401625
+axC 0x401fc0 0x401635
+axc 0x401653 0x40164a
+axC 0x401500 0x40164c
+axc 0x40165f 0x401651
+axd 0x404003 0x401653
+axC 0x402738 0x40165a
+axc 0x401690 0x401679
+axc 0x401690 0x40167e
+axC 0x4022b0 0x4016a3
+axd 0x403014 0x4016c4
+axc 0x4016db 0x4016cf
+axd 0x403014 0x4016d1
+axc 0x4016f1 0x4016de
+axc 0x401720 0x4016e3
+axd 0x407030 0x4016f1
+axd 0x407030 0x4016f6
+axc 0x4016e5 0x4016fc
+axc 0x401708 0x401704
+axd 0x407030 0x40170b
+axc 0x401700 0x401711
+axC 0x4022b0 0x401737
+axc 0x4016e5 0x40173c
+axd 0x40615c 0x401750
+axd 0x405434 0x401784
+axC 0x401760 0x40178c
+axc 0x401820 0x401798
+axC 0x402740 0x4017a5
+axd 0x405434 0x4017aa
+axC 0x401760 0x4017b2
+axd 0x405430 0x4017bb
+axC 0x401760 0x4017c3
+axC 0x402748 0x4017e3
+axC 0x401770 0x4017f1
+axd 0x405434 0x4017f6
+axC 0x401770 0x401802
+axd 0x405430 0x40180e
+axC 0x402750 0x401813
+axC 0x406184 0x401827
+axC 0x401780 0x40184a
+axc 0x4018c0 0x401873
+axc 0x401930 0x40187a
+axc 0x401964 0x401885
+axC 0x402758 0x40189a
+axc 0x4019c0 0x4018a2
+axc 0x4018d9 0x4018aa
+axc 0x40191a 0x4018b5
+axc 0x4018f0 0x4018c5
+axc 0x40196f 0x4018cc
+axc 0x401930 0x4018d7
+axd 0x405044 0x4018d9
+axc 0x40191f 0x4018e0
+axC 0x402758 0x4018ff
+axc 0x4019e0 0x401907
+axc 0x4018d9 0x40190f
+axC 0x402758 0x40193f
+axc 0x40190d 0x401947
+axC 0x402758 0x401958
+axC 0x401f30 0x40195d
+axc 0x40191a 0x401962
+axc 0x4018d9 0x401969
+axC 0x402758 0x40197e
+axc 0x4019a0 0x401986
+axc 0x4018d9 0x40198a
+axc 0x40191a 0x401999
+axC 0x402758 0x4019af
+axc 0x40191a 0x4019b4
+axC 0x402758 0x4019cf
+axc 0x40191a 0x4019d4
+axC 0x402758 0x4019ef
+axc 0x40191a 0x4019f4
+axd 0x405048 0x401a13
+axc 0x401a51 0x401a26
+axc 0x401a57 0x401a4f
+axd 0x405048 0x401a64
+axc 0x402760 0x401a69
+axd 0x404014 0x401a73
+axc 0x401a8d 0x401a84
+axd 0x404130 0x401a86
+axd 0x404024 0x401aa9
+axd 0x40617c 0x401ab5
+axC 0x402768 0x401ac0
+axd 0x40617c 0x401ad4
+axd 0x404148 0x401aed
+axC 0x402770 0x401afb
+axd 0x40617c 0x401b0c
+axC 0x402778 0x401b17
+axC 0x402780 0x401b1c
+axc 0x401b30 0x401b21
+axd 0x405050 0x401b36
+axc 0x401c1d 0x401b3e
+axd 0x405054 0x401b44
+axc 0x401b64 0x401b54
+axc 0x401c16 0x401b5e
+axc 0x401b50 0x401b6c
+axC 0x402470 0x401b73
+axc 0x401c5a 0x401b7c
+axd 0x405054 0x401b85
+axC 0x402570 0x401b99
+axd 0x405054 0x401bb4
+axC 0x406148 0x401bc0
+axc 0x401c3a 0x401bcb
+axc 0x401c0f 0x401bd7
+axc 0x401c0f 0x401bdf
+axd 0x405054 0x401be5
+axC 0x406144 0x401c02
+axc 0x401c24 0x401c0d
+axd 0x405050 0x401c0f
+axc 0x401b6e 0x401c1f
+axC 0x406114 0x401c24
+axd 0x4041b8 0x401c2a
+axC 0x401ad0 0x401c35
+axd 0x405054 0x401c3a
+axd 0x404184 0x401c4a
+axC 0x401ad0 0x401c55
+axd 0x404164 0x401c5e
+axC 0x401ad0 0x401c65
+axd 0x40504c 0x401c70
+axc 0x401c80 0x401c77
+axd 0x40504c 0x401c89
+axC 0x4024c0 0x401c93
+axC 0x4026a0 0x401ca5
+axd 0x405050 0x401caa
+axd 0x405054 0x401cbd
+axd 0x40446c 0x401cc2
+axd 0x40446c 0x401cc7
+axc 0x401d70 0x401ccf
+axc 0x401e33 0x401cd8
+axd 0x40446c 0x401cde
+axc 0x401d78 0x401ce5
+axd 0x404470 0x401ceb
+axc 0x401d78 0x401cf2
+axd 0x404474 0x401cf8
+axd 0x404478 0x401cfe
+axc 0x401e38 0x401d05
+axd 0x40446c 0x401d0b
+axc 0x401f17 0x401d16
+axd 0x40446c 0x401d1f
+axc 0x401d70 0x401d25
+axc 0x401e52 0x401d42
+axc 0x401ed6 0x401d4b
+axc 0x401ea7 0x401d54
+axd 0x404214 0x401d5e
+axC 0x401ad0 0x401d65
+axd 0x40446c 0x401d78
+axd 0x40446c 0x401d7d
+axc 0x401d70 0x401d83
+axC 0x401b30 0x401d9c
+axd 0x40446c 0x401da4
+axc 0x401d85 0x401db0
+axd 0x405050 0x401db2
+axc 0x401dcb 0x401dbb
+axc 0x401d70 0x401dbd
+axd 0x405050 0x401dc3
+axc 0x401d70 0x401dc9
+axd 0x405054 0x401dce
+axc 0x401dc0 0x401de0
+axC 0x406148 0x401df7
+axc 0x401ef2 0x401e02
+axd 0x405054 0x401e0f
+axC 0x406144 0x401e28
+axc 0x401dc0 0x401e31
+axd 0x40446c 0x401e33
+axc 0x401d7d 0x401e3c
+axc 0x401d10 0x401e47
+axc 0x401d7d 0x401e4d
+axC 0x401b30 0x401e80
+axd 0x40446c 0x401e96
+axc 0x401d27 0x401e9c
+axc 0x401db2 0x401ea2
+axC 0x401b30 0x401ec9
+axc 0x401e93 0x401ed4
+axC 0x401b30 0x401ee9
+axc 0x401e93 0x401ef0
+axd 0x405054 0x401ef2
+axd 0x404184 0x401f07
+axC 0x401ad0 0x401f12
+axd 0x4041e0 0x401f1b
+axC 0x401ad0 0x401f22
+axd 0x403010 0x401f40
+axc 0x401f6a 0x401f49
+axd 0x403010 0x401f52
+axd 0x403010 0x401f5d
+axc 0x401f50 0x401f65
+axd 0x4027a0 0x401f74
+axc 0x401fa0 0x401f7d
+axc 0x401f8f 0x401f81
+axC 0x4027a0 0x401f83
+axc 0x401f83 0x401f8d
+axd 0x401f40 0x401f8f
+axC 0x401840 0x401f96
+axc 0x401fa6 0x401fa2
+axd 0x4027a0 0x401fa9
+axc 0x401fa4 0x401fb2
+axc 0x401f7f 0x401fb4
+axd 0x405058 0x401fc0
+axc 0x401fd0 0x401fc7
+axd 0x405058 0x401fd0
+axc 0x401f70 0x401fda
+axd 0x403024 0x401fe7
+axc 0x402012 0x402001
+axd 0x403028 0x402005
+axC 0x40611c 0x402019
+axC 0x40610c 0x40202a
+axC 0x406110 0x402032
+axC 0x406120 0x40203a
+axC 0x40612c 0x402049
+axc 0x402080 0x402066
+axd 0x403024 0x40206c
+axd 0x403028 0x402072
+axc 0x40206c 0x40208a
+axd 0x405380 0x402096
+axd 0x405384 0x4020a6
+axd 0x405144 0x4020b7
+axd 0x405138 0x4020bd
+axd 0x40538c 0x4020c2
+axd 0x40512c 0x4020ca
+axd 0x403024 0x4020cf
+axd 0x403028 0x4020d7
+axC 0x406130 0x4020df
+axd 0x404240 0x4020e8
+axC 0x406140 0x4020ef
+axC 0x406108 0x4020f8
+axC 0x406138 0x402109
+axC 0x402780 0x402112
+axd 0x405408 0x402127
+axC 0x406104 0x40212e
+axd 0x405400 0x402134
+axd 0x40613c 0x40213d
+axd 0x406114 0x402143
+axc 0x402175 0x40214b
+axc 0x40216e 0x402160
+axc 0x40216e 0x402164
+axc 0x402150 0x402173
+axd 0x405408 0x402175
+axC 0x406128 0x40217c
+axd 0x405404 0x402190
+axc 0x4021a0 0x402197
+axC 0x402788 0x4021b3
+axc 0x402200 0x4021bc
+axd 0x405408 0x4021c2
+axC 0x406104 0x4021d2
+axd 0x405400 0x4021d8
+axd 0x405400 0x4021e0
+axd 0x405408 0x4021e6
+axC 0x406128 0x4021f0
+axc 0x4021fb 0x402205
+axd 0x405404 0x402214
+axc 0x402230 0x40221f
+axd 0x405408 0x402230
+axC 0x406104 0x402237
+axd 0x405400 0x40223d
+axc 0x402261 0x402248
+axc 0x40225a 0x40224e
+axc 0x4022a0 0x402250
+axc 0x402280 0x402256
+axc 0x402252 0x40225f
+axd 0x405408 0x402261
+axC 0x406128 0x402268
+axC 0x402790 0x402289
+axd 0x405408 0x40228e
+axC 0x406128 0x402295
+axc 0x402271 0x40229e
+axd 0x405400 0x4022a5
+axc 0x402286 0x4022ab
+axc 0x402304 0x4022ba
+axc 0x4022d5 0x4022bc
+axc 0x4022cc 0x4022c1
+axd 0x405404 0x4022c3
+axc 0x402332 0x4022ca
+axd 0x405404 0x4022d5
+axc 0x402340 0x4022dc
+axd 0x405404 0x4022de
+axc 0x4022cc 0x4022e6
+axd 0x405404 0x4022e8
+axd 0x405408 0x4022f2
+axC 0x406100 0x4022f9
+axc 0x4022cc 0x402302
+axd 0x405404 0x402304
+axc 0x402320 0x40230b
+axd 0x405404 0x40230d
+axd 0x405408 0x402320
+axC 0x406124 0x402327
+axc 0x40230d 0x402330
+axC 0x402120 0x402332
+axc 0x4022cc 0x402337
+axC 0x402120 0x402340
+axc 0x4022de 0x402345
+axc 0x402360 0x402359
+axc 0x402380 0x402379
+axc 0x402350 0x402380
+axc 0x4023c8 0x4023ab
+axc 0x4023be 0x4023b5
+axc 0x4023ca 0x4023bc
+axc 0x4023b0 0x4023c6
+axC 0x402708 0x4023e0
+axc 0x4023f5 0x4023e8
+axc 0x402400 0x4023f3
+axC 0x402350 0x402405
+axc 0x4023f5 0x40240c
+axc 0x40243a 0x40242a
+axc 0x4023f5 0x40242c
+axc 0x402460 0x402438
+axC 0x402798 0x402449
+axc 0x402430 0x402450
+axc 0x402490 0x40247f
+axC 0x402350 0x402495
+axc 0x402481 0x40249c
+axC 0x402390 0x4024b2
+axc 0x4024d0 0x4024cb
+axC 0x402350 0x4024d5
+axc 0x4024cd 0x4024dc
+axc 0x402510 0x402501
+axC 0x402350 0x402515
+axc 0x402503 0x40251c
+axc 0x402503 0x40253a
+axc 0x40254d 0x402544
+axc 0x402560 0x402548
+axc 0x402540 0x402555
+axc 0x402582 0x40257c
+axC 0x402350 0x402587
+axc 0x4025b0 0x4025ab
+axC 0x402350 0x4025b8
+axc 0x4025e6 0x4025bf
+axC 0x402390 0x4025d5
+axc 0x4025f0 0x4025dc
+axc 0x4025e6 0x4025f2
+axc 0x402620 0x402615
+axC 0x402350 0x402625
+axc 0x402617 0x40262c
+axc 0x402617 0x40263b
+axC 0x402390 0x402648
+axc 0x402617 0x40264f
+axc 0x402666 0x402659
+axc 0x402617 0x40265b
+axc 0x402674 0x40266b
+axc 0x402690 0x402672
+axc 0x402660 0x402676
+axc 0x4026c2 0x4026ab
+axc 0x4026ad 0x4026c0
+axc 0x406160 0x4026cc
+axc 0x406154 0x4026d4
+axd 0x405424 0x4026e0
+axc 0x4061a4 0x402700
+axc 0x4061b4 0x402708
+axc 0x4061a8 0x402710
+axc 0x406170 0x402718
+axc 0x40616c 0x402720
+axc 0x406178 0x402728
+axc 0x406194 0x402730
+axc 0x4061ac 0x402738
+axc 0x406180 0x402740
+axc 0x406150 0x402748
+axc 0x406188 0x402750
+axc 0x4061b0 0x402758
+axc 0x406164 0x402760
+axc 0x406198 0x402768
+axc 0x4061a0 0x402770
+axc 0x4061bc 0x402778
+axc 0x40618c 0x402780
+axc 0x406190 0x402788
+axc 0x40619c 0x402790
+axc 0x4061b8 0x402798
